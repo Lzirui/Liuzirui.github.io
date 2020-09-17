@@ -1217,7 +1217,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #049069;
+  background: #ffe39e;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2821,4 +2821,10 @@ ul.breadcrumb li + li:last-child {
 }
 .icon-rooster:before {
   content: '\e82f';
+}
+.site-overview {
+  text-align: center;
+}
+canvas#canvas {
+  margin-top: 20px;
 }
