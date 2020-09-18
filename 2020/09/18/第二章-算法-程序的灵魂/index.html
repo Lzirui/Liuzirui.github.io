@@ -22,20 +22,25 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":"Trebuchet","style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"./public/search.xml"};
   </script>
 
-  <meta name="description" content="1、什么是程序？什么是程序设计？ 所谓程序，就是一组计算机能识别和执行的指令。  程序设计是指从确定任务到得到结果，写出文档的全过程。">
+  <meta name="description" content="1、什么是算法？试从日常生活中找3个例子，描述他们的算法。 算法：简而言之就是求解问题的步骤，对特定问题求解步骤的一种描述。 生活中的例子： 考大学首先填报志愿表、交报名费、拿到准考证、按时参加考试、收到录取通知书、按照日期到指定学校报到。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="第一章 程序设计和C语言">
-<meta property="og:url" content="http://example.com/2020/09/16/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%92%8CC%E8%AF%AD%E8%A8%80/index.html">
+<meta property="og:title" content="第二章 算法-程序的灵魂">
+<meta property="og:url" content="http://example.com/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/index.html">
 <meta property="og:site_name" content="597 点滴">
-<meta property="og:description" content="1、什么是程序？什么是程序设计？ 所谓程序，就是一组计算机能识别和执行的指令。  程序设计是指从确定任务到得到结果，写出文档的全过程。">
+<meta property="og:description" content="1、什么是算法？试从日常生活中找3个例子，描述他们的算法。 算法：简而言之就是求解问题的步骤，对特定问题求解步骤的一种描述。 生活中的例子： 考大学首先填报志愿表、交报名费、拿到准考证、按时参加考试、收到录取通知书、按照日期到指定学校报到。">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-09-16T02:59:58.000Z">
-<meta property="article:modified_time" content="2020-09-17T05:42:14.178Z">
+<meta property="og:image" content="http://example.com/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/while%E5%9E%8B%E5%92%8Cuntil%E5%9E%8B%E5%A4%8D%E5%90%88.jpg">
+<meta property="og:image" content="http://example.com/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/%E5%A4%9A%E5%88%86%E6%9E%9D%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84.jpg">
+<meta property="og:image" content="http://example.com/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/4_1%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg">
+<meta property="og:image" content="http://example.com/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/4_2%E6%B5%81%E7%A8%8B%E5%9B%BE.png">
+<meta property="article:published_time" content="2020-09-18T06:50:03.000Z">
+<meta property="article:modified_time" content="2020-09-18T09:10:07.721Z">
 <meta property="article:author" content="597">
-<meta property="article:tag" content="C程序设计">
+<meta property="article:tag" content="C语言">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/while%E5%9E%8B%E5%92%8Cuntil%E5%9E%8B%E5%A4%8D%E5%90%88.jpg">
 
-<link rel="canonical" href="http://example.com/2020/09/16/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%92%8CC%E8%AF%AD%E8%A8%80/">
+<link rel="canonical" href="http://example.com/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/">
 
 
 <script id="page-configurations">
@@ -48,7 +53,7 @@
   };
 </script>
 
-  <title>第一章 程序设计和C语言 | 597 点滴</title>
+  <title>第二章 算法-程序的灵魂 | 597 点滴</title>
   
 
 
@@ -207,7 +212,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/09/16/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%92%8CC%E8%AF%AD%E8%A8%80/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/avatar.png">
@@ -220,7 +225,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          第一章 程序设计和C语言
+          第二章 算法-程序的灵魂
         </h1>
 
         <div class="post-meta">
@@ -233,27 +238,21 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2020-09-16 10:59:58" itemprop="dateCreated datePublished" datetime="2020-09-16T10:59:58+08:00">2020-09-16</time>
+              <time title="创建时间：2020-09-18 14:50:03 / 修改时间：17:10:07" itemprop="dateCreated datePublished" datetime="2020-09-18T14:50:03+08:00">2020-09-18</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-09-17 13:42:14" itemprop="dateModified" datetime="2020-09-17T13:42:14+08:00">2020-09-17</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E8%AF%BE%E5%90%8E%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">课后题</span></a>
+                  <a href="/categories/C%E8%AF%AD%E8%A8%80/" itemprop="url" rel="index"><span itemprop="name">C语言</span></a>
                 </span>
                   ，
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E8%AF%BE%E5%90%8E%E9%A2%98/C%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" itemprop="url" rel="index"><span itemprop="name">C程序设计</span></a>
+                  <a href="/categories/C%E8%AF%AD%E8%A8%80/%E8%AF%BE%E5%90%8E%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">课后题</span></a>
                 </span>
             </span>
 
@@ -273,8 +272,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2020/09/16/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%92%8CC%E8%AF%AD%E8%A8%80/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2020/09/16/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%92%8CC%E8%AF%AD%E8%A8%80/" itemprop="commentCount"></span>
+    <a title="valine" href="/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -284,7 +283,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>1.5k</span>
+              <span>947</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -303,35 +302,51 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h4 id="1、什么是程序？什么是程序设计？"><a href="#1、什么是程序？什么是程序设计？" class="headerlink" title="1、什么是程序？什么是程序设计？"></a>1、什么是程序？什么是程序设计？</h4><ol>
-<li><p>所谓程序，就是一组计算机能识别和执行的指令。</p>
-</li>
-<li><p>程序设计是指从确定任务到得到结果，写出文档的全过程。</p>
-<a id="more"></a>
-
+        <h4 id="1、什么是算法？试从日常生活中找3个例子，描述他们的算法。"><a href="#1、什么是算法？试从日常生活中找3个例子，描述他们的算法。" class="headerlink" title="1、什么是算法？试从日常生活中找3个例子，描述他们的算法。"></a>1、什么是算法？试从日常生活中找3个例子，描述他们的算法。</h4><ol>
+<li>算法：简而言之就是求解问题的步骤，对特定问题求解步骤的一种描述。</li>
+<li>生活中的例子：<ol>
+<li>考大学<br>首先填报志愿表、交报名费、拿到准考证、按时参加考试、收到录取通知书、按照日期到指定学校报到。<a id="more"></a></li>
+<li>去北京听演唱会<br>首先在网上购票、然后按时坐车到北京，坐车到演唱会会场。</li>
+<li>把大象放进冰箱<br>先打开冰箱门，然后将大象放进冰箱，关冰箱。</li>
+</ol>
 </li>
 </ol>
-<h4 id="2、-为什么需要计算机语言？高级语言有哪些特点？"><a href="#2、-为什么需要计算机语言？高级语言有哪些特点？" class="headerlink" title="2、 为什么需要计算机语言？高级语言有哪些特点？"></a>2、 为什么需要计算机语言？高级语言有哪些特点？</h4><ol>
-<li><p>计算机语言解决了人和计算机交流信息的问题，使得计算机和人都能识别。</p>
+<h4 id="2、什么叫结构化的算法？为什么提倡结构化的算法？"><a href="#2、什么叫结构化的算法？为什么提倡结构化的算法？" class="headerlink" title="2、什么叫结构化的算法？为什么提倡结构化的算法？"></a>2、什么叫结构化的算法？为什么提倡结构化的算法？</h4><ol>
+<li>结构化算法：由一些顺序、选择、循环等基本结构按照顺序组成，流程的转移只存在于一个基本的范围之内。</li>
+<li>结构化算法所得程序便于编写、阅读、修改和维护，这样就减少了程序出错的机会，提高了程序的可读性，保证了程序的质量。</li>
+</ol>
+<h4 id="3、试述3种基本结构的特点，请另外设计两种基本结构（要符合基本结构的的特点）。"><a href="#3、试述3种基本结构的特点，请另外设计两种基本结构（要符合基本结构的的特点）。" class="headerlink" title="3、试述3种基本结构的特点，请另外设计两种基本结构（要符合基本结构的的特点）。"></a>3、试述3种基本结构的特点，请另外设计两种基本结构（要符合基本结构的的特点）。</h4><ol>
+<li><p>三种基本结构的特点：</p>
+<ol>
+<li>顺序结构：顺序结构是一种线性的、有序的结构，它依次执行各语句模块。</li>
+<li>选择结构：选择结构是根据条件成立与否选择程序执行的通路。</li>
+<li>循环结构：循环结构是重复执行一个或几个模块，直到满足某一条件位置。</li>
+</ol>
 </li>
-<li><p>数据结构比汇编和机器语言丰富；与具体机器结构的关联没有汇编以及机器语言密切；更接近自然语言更容易掌控；编写的程序要经过编译或解释计算机才能执行。</p>
+<li><p>设计两种基本机构<br>基本结构的特点：</p>
+<ol>
+<li>只有一个入口</li>
+<li>只有一个出口</li>
+<li>结构内的每一部分都会有机会执行到</li>
+<li>结构内不存在死循环</li>
+</ol>
+<p>给出以下两种基本机构：</p>
+<ol>
+<li>​    while型和until型符合结构<br><img src="/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/while%E5%9E%8B%E5%92%8Cuntil%E5%9E%8B%E5%A4%8D%E5%90%88.jpg" alt="while型和until型复合"></li>
+<li>多分枝选择结构<br><img src="/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/%E5%A4%9A%E5%88%86%E6%9E%9D%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84.jpg" alt="多分枝选择结构"></li>
+</ol>
 </li>
 </ol>
-<h4 id="3、正确理解以下名词及其含义："><a href="#3、正确理解以下名词及其含义：" class="headerlink" title="3、正确理解以下名词及其含义："></a>3、正确理解以下名词及其含义：</h4><ol>
-<li><strong>源程序，目标程序，可执行程序。</strong><br>源程序：用高级语言编写的程序。<br>目标程序：为源程序经编译可被计算机运行的机器码合集。<br>可执行程序：将所有编译后得到的目标模块连接装配起来，在与函数库相连接成为一个整体，生成一个可供计算机执行的目标程序，称为可执行程序。</li>
-<li><strong>程序编辑，程序编译，程序连接。</strong><br>程序编辑：上机输入和编辑源程序。<br>程序编译：先用C提供的“预处理器”对程序中的的预处理指令进行编译预处理；对源程序进行检查，判定它有语法方面的错误，直到没有语法错误为止；编译程序自动把源程序转化为二进制形式的目标程序。<br>程序连接：将所有编译后得到的目标模块连接装配起来，在于函数库相连接成为一个整体的过程称之为程序连接。</li>
-<li><strong>程序，程序模块，程序文件。</strong><br>程序：一组计算机能识别和执行的指令。<br>程序模块：可由汇编程序、编译程序、装入程序或翻译程序作为一个整体来处理的一级独立的、可识别的程序指令。<br>程序文件：程序的文件称为程序文件，程序文件存储的是程序，包括源程序和可执行程序。</li>
-<li><strong>函数，主函数，被调用函数，库函数</strong><br>函数：将一段经常需要使用的代码封装起来，在需要使用时可以直接调用，来完成一些功能。<br>主函数：又称main函数，是程序的起点。<br>被调用函数：由一个函数调用另一个函数，则称第二个函数为被调用函数。<br>库函数：一般是指编译器提供的可在C源程序中调用的函数。可分为两类，一类是C语言标准规定的库函数，一类是编译器特定的库函数。</li>
-<li><strong>程序调试，程序测试</strong><br>程序调试：是将编制的程序投入实际运行前，用手工或编译程序等方法进行测试，修正语法错误和逻辑错误的过程。<br>程序测试：只是对一个完成了全部或部分功能、模块的计算机程序正式使用前的检测，以确保该程序能按预定的方式正确地运行。</li>
+<h4 id="4、用传统流程图表示求解以下问题的算法"><a href="#4、用传统流程图表示求解以下问题的算法" class="headerlink" title="4、用传统流程图表示求解以下问题的算法"></a>4、用传统流程图表示求解以下问题的算法</h4><ol>
+<li><p>有两个瓶子A和B，分别盛放醋和酱油，要求将他们呼唤（即A瓶原来盛醋，现改为盛酱油，B瓶则相反）。<br>解：需要第三个瓶子C来完成交换。<br><img src="/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/4_1%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg" alt="4_1流程图"></p>
+</li>
+<li><p>依次将10个数输入，要求输出其中最大的值<br>解：程序如下</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">  <span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line">  <span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="keyword">int</span> max,a;</span><br><span class="line">  	<span class="built_in">printf</span>(<span class="string">&quot;请输入第1个数：&quot;</span>); </span><br><span class="line">  	<span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;max);</span><br><span class="line">  	<span class="keyword">int</span> i=<span class="number">1</span>;</span><br><span class="line">  	<span class="keyword">while</span>(i&lt;<span class="number">10</span>)&#123;</span><br><span class="line">  		<span class="built_in">printf</span>(<span class="string">&quot;请输入第%d个数：&quot;</span>,i+<span class="number">1</span>);</span><br><span class="line">  		<span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;a);</span><br><span class="line">  		<span class="keyword">if</span>(a&gt;max) </span><br><span class="line">  		max=a;</span><br><span class="line">  		++i;</span><br><span class="line">  	&#125;</span><br><span class="line">  	<span class="built_in">printf</span>(<span class="string">&quot;max=%d&quot;</span>,max);</span><br><span class="line">  	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">  &#125; </span><br></pre></td></tr></table></figure>
+
+<p>顺序图如下：</p>
+<p> <img src="/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/4_2%E6%B5%81%E7%A8%8B%E5%9B%BE.png" alt="4_2流程图"></p>
+</li>
 </ol>
-<h4 id="4、编写一个C程序，运行时输出-Hello-World！"><a href="#4、编写一个C程序，运行时输出-Hello-World！" class="headerlink" title="4、编写一个C程序，运行时输出 Hello World！"></a>4、编写一个C程序，运行时输出 Hello World！</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello World!\n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h4 id="5、编写一个C程序，运行时输出以下图形："><a href="#5、编写一个C程序，运行时输出以下图形：" class="headerlink" title="5、编写一个C程序，运行时输出以下图形："></a>5、编写一个C程序，运行时输出以下图形：</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">*****</span><br><span class="line">  *****</span><br><span class="line">   *****</span><br><span class="line">    *****</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;*****\n&quot;</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;  *****\n&quot;</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;    *****\n&quot;</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;       *****\n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h4 id="6、编写一个C程序，输入a，b，c三个值，输出其中最大者。"><a href="#6、编写一个C程序，输入a，b，c三个值，输出其中最大者。" class="headerlink" title="6、编写一个C程序，输入a，b，c三个值，输出其中最大者。"></a>6、编写一个C程序，输入a，b，c三个值，输出其中最大者。</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> a,b,c,max;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;please input a,b,c:\n&quot;</span>);</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d%d%d,&amp;a,&amp;b,&amp;c&quot;</span>);</span><br><span class="line">    max=a;</span><br><span class="line">    <span class="keyword">if</span>(max&lt;b)</span><br><span class="line">        max=b;</span><br><span class="line">    <span class="keyword">if</span>(max&lt;c)</span><br><span class="line">        max=c;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;max=%d\n,&amp;max&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
 
     </div>
 
@@ -382,12 +397,12 @@
   <script src="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.min.js"></script>
   <link rel="stylesheet" type="text/css" href="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.mini.css">
 
-  <p><span>本文标题:</span>第一章 程序设计和C语言</a></p>
+  <p><span>本文标题:</span>第二章 算法-程序的灵魂</a></p>
   <p><span>文章作者:</span></a></p>
-  <p><span>发布时间:</span>2020年09月16日 - 10:59:58</p>
-  <p><span>最后更新:</span>2020年09月17日 - 13:42:14</p>
-  <p><span>原始链接:</span><a href="/2020/09/16/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%92%8CC%E8%AF%AD%E8%A8%80/" title="第一章 程序设计和C语言">http://example.com/2020/09/16/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%92%8CC%E8%AF%AD%E8%A8%80/</a>
-    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://example.com/2020/09/16/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%92%8CC%E8%AF%AD%E8%A8%80/"  aria-label="复制成功！"></i></span>
+  <p><span>发布时间:</span>2020年09月18日 - 14:50:03</p>
+  <p><span>最后更新:</span>2020年09月18日 - 17:10:07</p>
+  <p><span>原始链接:</span><a href="/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/" title="第二章 算法-程序的灵魂">http://example.com/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/</a>
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://example.com/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/"  aria-label="复制成功！"></i></span>
   </p>
   <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license external nofollow noreferrer" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
 </div>
@@ -430,7 +445,7 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/C%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" rel="tag"># C程序设计</a>
+              <a href="/tags/C%E8%AF%AD%E8%A8%80/" rel="tag"># C语言</a>
           </div>
 
         
@@ -439,13 +454,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2019/10/17/JAVA%E8%AF%AD%E8%A8%80%E9%AB%98%E7%BA%A7/" rel="prev" title="JAVA语言高级">
-      <i class="fa fa-chevron-left"></i> JAVA语言高级
+    <a href="/2020/09/16/hexo%E4%BD%BF%E7%94%A8markdown%E5%9B%BE%E7%89%87%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/" rel="prev" title="hexo使用markdown图片无法显示问题">
+      <i class="fa fa-chevron-left"></i> hexo使用markdown图片无法显示问题
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2020/09/16/hexo%E4%BD%BF%E7%94%A8markdown%E5%9B%BE%E7%89%87%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/" rel="next" title="hexo使用markdown图片无法显示问题">
-      hexo使用markdown图片无法显示问题 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -505,7 +517,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#1%E3%80%81%E4%BB%80%E4%B9%88%E6%98%AF%E7%A8%8B%E5%BA%8F%EF%BC%9F%E4%BB%80%E4%B9%88%E6%98%AF%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%9F"><span class="nav-number">1.</span> <span class="nav-text">1、什么是程序？什么是程序设计？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2%E3%80%81-%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%EF%BC%9F%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80%E6%9C%89%E5%93%AA%E4%BA%9B%E7%89%B9%E7%82%B9%EF%BC%9F"><span class="nav-number">2.</span> <span class="nav-text">2、 为什么需要计算机语言？高级语言有哪些特点？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3%E3%80%81%E6%AD%A3%E7%A1%AE%E7%90%86%E8%A7%A3%E4%BB%A5%E4%B8%8B%E5%90%8D%E8%AF%8D%E5%8F%8A%E5%85%B6%E5%90%AB%E4%B9%89%EF%BC%9A"><span class="nav-number">3.</span> <span class="nav-text">3、正确理解以下名词及其含义：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4%E3%80%81%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AAC%E7%A8%8B%E5%BA%8F%EF%BC%8C%E8%BF%90%E8%A1%8C%E6%97%B6%E8%BE%93%E5%87%BA-Hello-World%EF%BC%81"><span class="nav-number">4.</span> <span class="nav-text">4、编写一个C程序，运行时输出 Hello World！</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5%E3%80%81%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AAC%E7%A8%8B%E5%BA%8F%EF%BC%8C%E8%BF%90%E8%A1%8C%E6%97%B6%E8%BE%93%E5%87%BA%E4%BB%A5%E4%B8%8B%E5%9B%BE%E5%BD%A2%EF%BC%9A"><span class="nav-number">5.</span> <span class="nav-text">5、编写一个C程序，运行时输出以下图形：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6%E3%80%81%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AAC%E7%A8%8B%E5%BA%8F%EF%BC%8C%E8%BE%93%E5%85%A5a%EF%BC%8Cb%EF%BC%8Cc%E4%B8%89%E4%B8%AA%E5%80%BC%EF%BC%8C%E8%BE%93%E5%87%BA%E5%85%B6%E4%B8%AD%E6%9C%80%E5%A4%A7%E8%80%85%E3%80%82"><span class="nav-number">6.</span> <span class="nav-text">6、编写一个C程序，输入a，b，c三个值，输出其中最大者。</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#1%E3%80%81%E4%BB%80%E4%B9%88%E6%98%AF%E7%AE%97%E6%B3%95%EF%BC%9F%E8%AF%95%E4%BB%8E%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB%E4%B8%AD%E6%89%BE3%E4%B8%AA%E4%BE%8B%E5%AD%90%EF%BC%8C%E6%8F%8F%E8%BF%B0%E4%BB%96%E4%BB%AC%E7%9A%84%E7%AE%97%E6%B3%95%E3%80%82"><span class="nav-number">1.</span> <span class="nav-text">1、什么是算法？试从日常生活中找3个例子，描述他们的算法。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2%E3%80%81%E4%BB%80%E4%B9%88%E5%8F%AB%E7%BB%93%E6%9E%84%E5%8C%96%E7%9A%84%E7%AE%97%E6%B3%95%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8F%90%E5%80%A1%E7%BB%93%E6%9E%84%E5%8C%96%E7%9A%84%E7%AE%97%E6%B3%95%EF%BC%9F"><span class="nav-number">2.</span> <span class="nav-text">2、什么叫结构化的算法？为什么提倡结构化的算法？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3%E3%80%81%E8%AF%95%E8%BF%B03%E7%A7%8D%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%E7%9A%84%E7%89%B9%E7%82%B9%EF%BC%8C%E8%AF%B7%E5%8F%A6%E5%A4%96%E8%AE%BE%E8%AE%A1%E4%B8%A4%E7%A7%8D%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%EF%BC%88%E8%A6%81%E7%AC%A6%E5%90%88%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%E7%9A%84%E7%9A%84%E7%89%B9%E7%82%B9%EF%BC%89%E3%80%82"><span class="nav-number">3.</span> <span class="nav-text">3、试述3种基本结构的特点，请另外设计两种基本结构（要符合基本结构的的特点）。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4%E3%80%81%E7%94%A8%E4%BC%A0%E7%BB%9F%E6%B5%81%E7%A8%8B%E5%9B%BE%E8%A1%A8%E7%A4%BA%E6%B1%82%E8%A7%A3%E4%BB%A5%E4%B8%8B%E9%97%AE%E9%A2%98%E7%9A%84%E7%AE%97%E6%B3%95"><span class="nav-number">4.</span> <span class="nav-text">4、用传统流程图表示求解以下问题的算法</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

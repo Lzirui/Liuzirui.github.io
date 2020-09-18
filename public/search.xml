@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>第二章 算法-程序的灵魂</title>
-    <url>/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/</url>
+    <url>/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/</url>
     <content><![CDATA[<h4 id="1、什么是算法？试从日常生活中找3个例子，描述他们的算法。"><a href="#1、什么是算法？试从日常生活中找3个例子，描述他们的算法。" class="headerlink" title="1、什么是算法？试从日常生活中找3个例子，描述他们的算法。"></a>1、什么是算法？试从日常生活中找3个例子，描述他们的算法。</h4><ol>
 <li>算法：简而言之就是求解问题的步骤，对特定问题求解步骤的一种描述。</li>
 <li>生活中的例子：<ol>
@@ -33,19 +33,19 @@
 </ol>
 <p>给出以下两种基本机构：</p>
 <ol>
-<li>​    while型和until型符合结构<br>![while型和until型复合](第二章 算法-程序的灵魂/while型和until型复合.jpg)</li>
-<li>多分枝选择结构<br>![多分枝选择结构](第二章 算法-程序的灵魂/多分枝选择结构.jpg)</li>
+<li>​    while型和until型符合结构<br><img src="/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/while%E5%9E%8B%E5%92%8Cuntil%E5%9E%8B%E5%A4%8D%E5%90%88.jpg" alt="while型和until型复合"></li>
+<li>多分枝选择结构<br><img src="/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/%E5%A4%9A%E5%88%86%E6%9E%9D%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84.jpg" alt="多分枝选择结构"></li>
 </ol>
 </li>
 </ol>
 <h4 id="4、用传统流程图表示求解以下问题的算法"><a href="#4、用传统流程图表示求解以下问题的算法" class="headerlink" title="4、用传统流程图表示求解以下问题的算法"></a>4、用传统流程图表示求解以下问题的算法</h4><ol>
-<li><p>有两个瓶子A和B，分别盛放醋和酱油，要求将他们呼唤（即A瓶原来盛醋，现改为盛酱油，B瓶则相反）。<br>解：需要第三个瓶子C来完成交换。<br>![4_1流程图](第二章 算法-程序的灵魂/4_1流程图.jpg)</p>
+<li><p>有两个瓶子A和B，分别盛放醋和酱油，要求将他们呼唤（即A瓶原来盛醋，现改为盛酱油，B瓶则相反）。<br>解：需要第三个瓶子C来完成交换。<br><img src="/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/4_1%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg" alt="4_1流程图"></p>
 </li>
 <li><p>依次将10个数输入，要求输出其中最大的值<br>解：程序如下</p>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">  <span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line">  <span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="keyword">int</span> max,a;</span><br><span class="line">  	<span class="built_in">printf</span>(<span class="string">&quot;请输入第1个数：&quot;</span>); </span><br><span class="line">  	<span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;max);</span><br><span class="line">  	<span class="keyword">int</span> i=<span class="number">1</span>;</span><br><span class="line">  	<span class="keyword">while</span>(i&lt;<span class="number">10</span>)&#123;</span><br><span class="line">  		<span class="built_in">printf</span>(<span class="string">&quot;请输入第%d个数：&quot;</span>,i+<span class="number">1</span>);</span><br><span class="line">  		<span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;a);</span><br><span class="line">  		<span class="keyword">if</span>(a&gt;max) </span><br><span class="line">  		max=a;</span><br><span class="line">  		++i;</span><br><span class="line">  	&#125;</span><br><span class="line">  	<span class="built_in">printf</span>(<span class="string">&quot;max=%d&quot;</span>,max);</span><br><span class="line">  	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">  &#125; </span><br></pre></td></tr></table></figure>
 
 <p>顺序图如下：</p>
-<p> ![4_2流程图](第二章 算法-程序的灵魂/4_2流程图.png)</p>
+<p> <img src="/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/4_2%E6%B5%81%E7%A8%8B%E5%9B%BE.png" alt="4_2流程图"></p>
 </li>
 </ol>
 ]]></content>
@@ -77,7 +77,7 @@
   </entry>
   <entry>
     <title>第一章 程序设计和C语言</title>
-    <url>/2020/09/16/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%92%8CC%E8%AF%AD%E8%A8%80/</url>
+    <url>/2020/09/16/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%92%8CC%E8%AF%AD%E8%A8%80/</url>
     <content><![CDATA[<h4 id="1、什么是程序？什么是程序设计？"><a href="#1、什么是程序？什么是程序设计？" class="headerlink" title="1、什么是程序？什么是程序设计？"></a>1、什么是程序？什么是程序设计？</h4><ol>
 <li><p>所谓程序，就是一组计算机能识别和执行的指令。</p>
 </li>
