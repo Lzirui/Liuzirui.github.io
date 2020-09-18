@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>第二章 算法-程序的灵魂</title>
+    <url>/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/</url>
+    <content><![CDATA[<h4 id="1、什么是算法？试从日常生活中找3个例子，描述他们的算法。"><a href="#1、什么是算法？试从日常生活中找3个例子，描述他们的算法。" class="headerlink" title="1、什么是算法？试从日常生活中找3个例子，描述他们的算法。"></a>1、什么是算法？试从日常生活中找3个例子，描述他们的算法。</h4><ol>
+<li>算法：简而言之就是求解问题的步骤，对特定问题求解步骤的一种描述。</li>
+<li>生活中的例子：<ol>
+<li>考大学<br>首先填报志愿表、交报名费、拿到准考证、按时参加考试、收到录取通知书、按照日期到指定学校报到。</li>
+<li>去北京听演唱会<br>首先在网上购票、然后按时坐车到北京，坐车到演唱会会场。</li>
+<li>把大象放进冰箱<br>先打开冰箱门，然后将大象放进冰箱，关冰箱。</li>
+</ol>
+</li>
+</ol>
+<h4 id="2、什么叫结构化的算法？为什么提倡结构化的算法？"><a href="#2、什么叫结构化的算法？为什么提倡结构化的算法？" class="headerlink" title="2、什么叫结构化的算法？为什么提倡结构化的算法？"></a>2、什么叫结构化的算法？为什么提倡结构化的算法？</h4><ol>
+<li>结构化算法：由一些顺序、选择、循环等基本结构按照顺序组成，流程的转移只存在于一个基本的范围之内。</li>
+<li>结构化算法所得程序便于编写、阅读、修改和维护，这样就减少了程序出错的机会，提高了程序的可读性，保证了程序的质量。</li>
+</ol>
+<h4 id="3、试述3种基本结构的特点，请另外设计两种基本结构（要符合基本结构的的特点）。"><a href="#3、试述3种基本结构的特点，请另外设计两种基本结构（要符合基本结构的的特点）。" class="headerlink" title="3、试述3种基本结构的特点，请另外设计两种基本结构（要符合基本结构的的特点）。"></a>3、试述3种基本结构的特点，请另外设计两种基本结构（要符合基本结构的的特点）。</h4><ol>
+<li><p>三种基本结构的特点：</p>
+<ol>
+<li>顺序结构：顺序结构是一种线性的、有序的结构，它依次执行各语句模块。</li>
+<li>选择结构：选择结构是根据条件成立与否选择程序执行的通路。</li>
+<li>循环结构：循环结构是重复执行一个或几个模块，直到满足某一条件位置。</li>
+</ol>
+</li>
+<li><p>设计两种基本机构<br>基本结构的特点：</p>
+<ol>
+<li>只有一个入口</li>
+<li>只有一个出口</li>
+<li>结构内的每一部分都会有机会执行到</li>
+<li>结构内不存在死循环</li>
+</ol>
+<p>给出以下两种基本机构：</p>
+<ol>
+<li>​    while型和until型符合结构<br>![while型和until型复合](第二章 算法-程序的灵魂/while型和until型复合.jpg)</li>
+<li>多分枝选择结构<br>![多分枝选择结构](第二章 算法-程序的灵魂/多分枝选择结构.jpg)</li>
+</ol>
+</li>
+</ol>
+<h4 id="4、用传统流程图表示求解以下问题的算法"><a href="#4、用传统流程图表示求解以下问题的算法" class="headerlink" title="4、用传统流程图表示求解以下问题的算法"></a>4、用传统流程图表示求解以下问题的算法</h4><ol>
+<li><p>有两个瓶子A和B，分别盛放醋和酱油，要求将他们呼唤（即A瓶原来盛醋，现改为盛酱油，B瓶则相反）。<br>解：需要第三个瓶子C来完成交换。<br>![4_1流程图](第二章 算法-程序的灵魂/4_1流程图.jpg)</p>
+</li>
+<li><p>依次将10个数输入，要求输出其中最大的值<br>解：程序如下</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">  <span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line">  <span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="keyword">int</span> max,a;</span><br><span class="line">  	<span class="built_in">printf</span>(<span class="string">&quot;请输入第1个数：&quot;</span>); </span><br><span class="line">  	<span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;max);</span><br><span class="line">  	<span class="keyword">int</span> i=<span class="number">1</span>;</span><br><span class="line">  	<span class="keyword">while</span>(i&lt;<span class="number">10</span>)&#123;</span><br><span class="line">  		<span class="built_in">printf</span>(<span class="string">&quot;请输入第%d个数：&quot;</span>,i+<span class="number">1</span>);</span><br><span class="line">  		<span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;a);</span><br><span class="line">  		<span class="keyword">if</span>(a&gt;max) </span><br><span class="line">  		max=a;</span><br><span class="line">  		++i;</span><br><span class="line">  	&#125;</span><br><span class="line">  	<span class="built_in">printf</span>(<span class="string">&quot;max=%d&quot;</span>,max);</span><br><span class="line">  	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">  &#125; </span><br></pre></td></tr></table></figure>
+
+<p>顺序图如下：</p>
+<p> ![4_2流程图](第二章 算法-程序的灵魂/4_2流程图.png)</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>C语言</category>
+        <category>课后题</category>
+      </categories>
+      <tags>
+        <tag>C语言</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo使用markdown图片无法显示问题</title>
     <url>/2020/09/16/hexo%E4%BD%BF%E7%94%A8markdown%E5%9B%BE%E7%89%87%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<p><code>hexo</code>默认无法自动处理文章插入本地图片，需要通过扩展插件支持。</p>
@@ -20,7 +77,7 @@
   </entry>
   <entry>
     <title>第一章 程序设计和C语言</title>
-    <url>/2020/09/16/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%92%8CC%E8%AF%AD%E8%A8%80/</url>
+    <url>/2020/09/16/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%92%8CC%E8%AF%AD%E8%A8%80/</url>
     <content><![CDATA[<h4 id="1、什么是程序？什么是程序设计？"><a href="#1、什么是程序？什么是程序设计？" class="headerlink" title="1、什么是程序？什么是程序设计？"></a>1、什么是程序？什么是程序设计？</h4><ol>
 <li><p>所谓程序，就是一组计算机能识别和执行的指令。</p>
 </li>
