@@ -181,14 +181,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/%E7%AC%94%E8%AE%B0/JAVA/</loc>
+    <loc>http://example.com/categories/Hexo/</loc>
     <lastmod>2020-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/Hexo/</loc>
+    <loc>http://example.com/categories/%E7%AC%94%E8%AE%B0/JAVA/</loc>
     <lastmod>2020-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
