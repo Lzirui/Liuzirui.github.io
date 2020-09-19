@@ -1,122 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>第二章 算法-程序的灵魂</title>
-    <url>/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/</url>
-    <content><![CDATA[<h4 id="1、什么是算法？试从日常生活中找3个例子，描述他们的算法。"><a href="#1、什么是算法？试从日常生活中找3个例子，描述他们的算法。" class="headerlink" title="1、什么是算法？试从日常生活中找3个例子，描述他们的算法。"></a>1、什么是算法？试从日常生活中找3个例子，描述他们的算法。</h4><ol>
-<li>算法：简而言之就是求解问题的步骤，对特定问题求解步骤的一种描述。</li>
-<li>生活中的例子：<ol>
-<li>考大学<br>首先填报志愿表、交报名费、拿到准考证、按时参加考试、收到录取通知书、按照日期到指定学校报到。<a id="more"></a></li>
-<li>去北京听演唱会<br>首先在网上购票、然后按时坐车到北京，坐车到演唱会会场。</li>
-<li>把大象放进冰箱<br>先打开冰箱门，然后将大象放进冰箱，关冰箱。</li>
-</ol>
-</li>
-</ol>
-<h4 id="2、什么叫结构化的算法？为什么提倡结构化的算法？"><a href="#2、什么叫结构化的算法？为什么提倡结构化的算法？" class="headerlink" title="2、什么叫结构化的算法？为什么提倡结构化的算法？"></a>2、什么叫结构化的算法？为什么提倡结构化的算法？</h4><ol>
-<li>结构化算法：由一些顺序、选择、循环等基本结构按照顺序组成，流程的转移只存在于一个基本的范围之内。</li>
-<li>结构化算法所得程序便于编写、阅读、修改和维护，这样就减少了程序出错的机会，提高了程序的可读性，保证了程序的质量。</li>
-</ol>
-<h4 id="3、试述3种基本结构的特点，请另外设计两种基本结构（要符合基本结构的的特点）。"><a href="#3、试述3种基本结构的特点，请另外设计两种基本结构（要符合基本结构的的特点）。" class="headerlink" title="3、试述3种基本结构的特点，请另外设计两种基本结构（要符合基本结构的的特点）。"></a>3、试述3种基本结构的特点，请另外设计两种基本结构（要符合基本结构的的特点）。</h4><ol>
-<li><p>三种基本结构的特点：</p>
-<ol>
-<li>顺序结构：顺序结构是一种线性的、有序的结构，它依次执行各语句模块。</li>
-<li>选择结构：选择结构是根据条件成立与否选择程序执行的通路。</li>
-<li>循环结构：循环结构是重复执行一个或几个模块，直到满足某一条件位置。</li>
-</ol>
-</li>
-<li><p>设计两种基本机构<br>基本结构的特点：</p>
-<ol>
-<li>只有一个入口</li>
-<li>只有一个出口</li>
-<li>结构内的每一部分都会有机会执行到</li>
-<li>结构内不存在死循环</li>
-</ol>
-<p>给出以下两种基本机构：</p>
-<ol>
-<li>​    while型和until型符合结构<br><img src="/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/while%E5%9E%8B%E5%92%8Cuntil%E5%9E%8B%E5%A4%8D%E5%90%88.jpg" alt="while型和until型复合"></li>
-<li>多分枝选择结构<br><img src="/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/%E5%A4%9A%E5%88%86%E6%9E%9D%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84.jpg" alt="多分枝选择结构"></li>
-</ol>
-</li>
-</ol>
-<h4 id="4、用传统流程图表示求解以下问题的算法"><a href="#4、用传统流程图表示求解以下问题的算法" class="headerlink" title="4、用传统流程图表示求解以下问题的算法"></a>4、用传统流程图表示求解以下问题的算法</h4><ol>
-<li><p>有两个瓶子A和B，分别盛放醋和酱油，要求将他们呼唤（即A瓶原来盛醋，现改为盛酱油，B瓶则相反）。<br>解：需要第三个瓶子C来完成交换。<br><img src="/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/4_1%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg" alt="4_1流程图"></p>
-</li>
-<li><p>依次将10个数输入，要求输出其中最大的值<br>解：程序如下</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">  <span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line">  <span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="keyword">int</span> max,a;</span><br><span class="line">  	<span class="built_in">printf</span>(<span class="string">&quot;请输入第1个数：&quot;</span>); </span><br><span class="line">  	<span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;max);</span><br><span class="line">  	<span class="keyword">int</span> i=<span class="number">1</span>;</span><br><span class="line">  	<span class="keyword">while</span>(i&lt;<span class="number">10</span>)&#123;</span><br><span class="line">  		<span class="built_in">printf</span>(<span class="string">&quot;请输入第%d个数：&quot;</span>,i+<span class="number">1</span>);</span><br><span class="line">  		<span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;a);</span><br><span class="line">  		<span class="keyword">if</span>(a&gt;max) </span><br><span class="line">  		max=a;</span><br><span class="line">  		++i;</span><br><span class="line">  	&#125;</span><br><span class="line">  	<span class="built_in">printf</span>(<span class="string">&quot;max=%d&quot;</span>,max);</span><br><span class="line">  	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">  &#125; </span><br></pre></td></tr></table></figure>
-
-<p>顺序图如下：</p>
-<p> <img src="/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/4_2%E6%B5%81%E7%A8%8B%E5%9B%BE.png" alt="4_2流程图"></p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>C语言</category>
-        <category>课后题</category>
-      </categories>
-      <tags>
-        <tag>C语言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo使用markdown图片无法显示问题</title>
-    <url>/2020/09/16/hexo%E4%BD%BF%E7%94%A8markdown%E5%9B%BE%E7%89%87%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<p><code>hexo</code>默认无法自动处理文章插入本地图片，需要通过扩展插件支持。</p>
-<h4 id="如何使用markdown插入图片"><a href="#如何使用markdown插入图片" class="headerlink" title="如何使用markdown插入图片"></a>如何使用markdown插入图片</h4><p>​    将根目录<code>_config.yml</code>里面的<code>post_asset_folder:false</code>选项设置为<code>true</code>。</p>
-<p>​    安装<a href="https://github.com/7ym0n/hexo-asset-image.git">hexo-asset-image</a>，运行<code>hexo new post &quot;文件名&quot;</code>来生成md博文时，<code>/source/_posts</code>文件夹内会生成一个与博文同名的文件夹，把图片放入该文件夹。</p>
-<p>​    使用<code>![text](文件名/图片名.png)</code>直接插入图片即可。</p>
-<a id="more"></a>
-
-<h4 id="出现的问题"><a href="#出现的问题" class="headerlink" title="出现的问题"></a>出现的问题</h4><p>​    由于hexo3版本后对很多插件支持有问题，<a href="https://github.com/CodeFalling/hexo-asset-image.git">hexo-asset-image</a>插件在处理<code>data.permalink</code>链接时出现路径错误，把年月去掉了，导致最后生成的路径为<code>%d/xxx/xxx</code>，需要对其做兼容处理，通过判断当前版本是否等于<code>3</code>的版本做不同的路径分割。</p>
-<h4 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h4><p>直接安装已经修改过得插件</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install https:&#x2F;&#x2F;github.com&#x2F;7ym0n&#x2F;hexo-asset-image --sava</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>第一章 程序设计和C语言</title>
-    <url>/2020/09/16/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%92%8CC%E8%AF%AD%E8%A8%80/</url>
-    <content><![CDATA[<h4 id="1、什么是程序？什么是程序设计？"><a href="#1、什么是程序？什么是程序设计？" class="headerlink" title="1、什么是程序？什么是程序设计？"></a>1、什么是程序？什么是程序设计？</h4><ol>
-<li><p>所谓程序，就是一组计算机能识别和执行的指令。</p>
-</li>
-<li><p>程序设计是指从确定任务到得到结果，写出文档的全过程。</p>
-<a id="more"></a>
-
-</li>
-</ol>
-<h4 id="2、-为什么需要计算机语言？高级语言有哪些特点？"><a href="#2、-为什么需要计算机语言？高级语言有哪些特点？" class="headerlink" title="2、 为什么需要计算机语言？高级语言有哪些特点？"></a>2、 为什么需要计算机语言？高级语言有哪些特点？</h4><ol>
-<li><p>计算机语言解决了人和计算机交流信息的问题，使得计算机和人都能识别。</p>
-</li>
-<li><p>数据结构比汇编和机器语言丰富；与具体机器结构的关联没有汇编以及机器语言密切；更接近自然语言更容易掌控；编写的程序要经过编译或解释计算机才能执行。</p>
-</li>
-</ol>
-<h4 id="3、正确理解以下名词及其含义："><a href="#3、正确理解以下名词及其含义：" class="headerlink" title="3、正确理解以下名词及其含义："></a>3、正确理解以下名词及其含义：</h4><ol>
-<li><strong>源程序，目标程序，可执行程序。</strong><br>源程序：用高级语言编写的程序。<br>目标程序：为源程序经编译可被计算机运行的机器码合集。<br>可执行程序：将所有编译后得到的目标模块连接装配起来，在与函数库相连接成为一个整体，生成一个可供计算机执行的目标程序，称为可执行程序。</li>
-<li><strong>程序编辑，程序编译，程序连接。</strong><br>程序编辑：上机输入和编辑源程序。<br>程序编译：先用C提供的“预处理器”对程序中的的预处理指令进行编译预处理；对源程序进行检查，判定它有语法方面的错误，直到没有语法错误为止；编译程序自动把源程序转化为二进制形式的目标程序。<br>程序连接：将所有编译后得到的目标模块连接装配起来，在于函数库相连接成为一个整体的过程称之为程序连接。</li>
-<li><strong>程序，程序模块，程序文件。</strong><br>程序：一组计算机能识别和执行的指令。<br>程序模块：可由汇编程序、编译程序、装入程序或翻译程序作为一个整体来处理的一级独立的、可识别的程序指令。<br>程序文件：程序的文件称为程序文件，程序文件存储的是程序，包括源程序和可执行程序。</li>
-<li><strong>函数，主函数，被调用函数，库函数</strong><br>函数：将一段经常需要使用的代码封装起来，在需要使用时可以直接调用，来完成一些功能。<br>主函数：又称main函数，是程序的起点。<br>被调用函数：由一个函数调用另一个函数，则称第二个函数为被调用函数。<br>库函数：一般是指编译器提供的可在C源程序中调用的函数。可分为两类，一类是C语言标准规定的库函数，一类是编译器特定的库函数。</li>
-<li><strong>程序调试，程序测试</strong><br>程序调试：是将编制的程序投入实际运行前，用手工或编译程序等方法进行测试，修正语法错误和逻辑错误的过程。<br>程序测试：只是对一个完成了全部或部分功能、模块的计算机程序正式使用前的检测，以确保该程序能按预定的方式正确地运行。</li>
-</ol>
-<h4 id="4、编写一个C程序，运行时输出-Hello-World！"><a href="#4、编写一个C程序，运行时输出-Hello-World！" class="headerlink" title="4、编写一个C程序，运行时输出 Hello World！"></a>4、编写一个C程序，运行时输出 Hello World！</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello World!\n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h4 id="5、编写一个C程序，运行时输出以下图形："><a href="#5、编写一个C程序，运行时输出以下图形：" class="headerlink" title="5、编写一个C程序，运行时输出以下图形："></a>5、编写一个C程序，运行时输出以下图形：</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">*****</span><br><span class="line">  *****</span><br><span class="line">   *****</span><br><span class="line">    *****</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;*****\n&quot;</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;  *****\n&quot;</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;    *****\n&quot;</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;       *****\n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h4 id="6、编写一个C程序，输入a，b，c三个值，输出其中最大者。"><a href="#6、编写一个C程序，输入a，b，c三个值，输出其中最大者。" class="headerlink" title="6、编写一个C程序，输入a，b，c三个值，输出其中最大者。"></a>6、编写一个C程序，输入a，b，c三个值，输出其中最大者。</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> a,b,c,max;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;please input a,b,c:\n&quot;</span>);</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d%d%d,&amp;a,&amp;b,&amp;c&quot;</span>);</span><br><span class="line">    max=a;</span><br><span class="line">    <span class="keyword">if</span>(max&lt;b)</span><br><span class="line">        max=b;</span><br><span class="line">    <span class="keyword">if</span>(max&lt;c)</span><br><span class="line">        max=c;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;max=%d\n,&amp;max&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>课后题</category>
-        <category>C程序设计</category>
-      </categories>
-      <tags>
-        <tag>C程序设计</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>JAVA语言高级</title>
     <url>/2019/10/17/JAVA%E8%AF%AD%E8%A8%80%E9%AB%98%E7%BA%A7/</url>
     <content><![CDATA[<h4 id="第一章-常用API"><a href="#第一章-常用API" class="headerlink" title="第一章 常用API"></a>第一章 常用API</h4><h5 id="1-1-概述"><a href="#1-1-概述" class="headerlink" title="1.1 概述"></a>1.1 概述</h5><p>​    API(Application Programming Interface)，应用程序编程接口。Java API是一本程序员的 字典 ，是JDK中提供给 我们使用的类的说明文档。这些类将底层的代码实现封装了起来，我们不需要关心这些类是如何实现的，只需要学习这些类如何使用即可。所以我们可以通过查询API的方式，来学习Java提供的类，并得知如何使用它们。</p>
@@ -207,6 +91,316 @@
 </ul>
 </li>
 </ol>
+]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>JAVA</category>
+      </categories>
+      <tags>
+        <tag>JAVA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo使用markdown图片无法显示问题</title>
+    <url>/2020/09/16/hexo%E4%BD%BF%E7%94%A8markdown%E5%9B%BE%E7%89%87%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p><code>hexo</code>默认无法自动处理文章插入本地图片，需要通过扩展插件支持。</p>
+<h4 id="如何使用markdown插入图片"><a href="#如何使用markdown插入图片" class="headerlink" title="如何使用markdown插入图片"></a>如何使用markdown插入图片</h4><p>​    将根目录<code>_config.yml</code>里面的<code>post_asset_folder:false</code>选项设置为<code>true</code>。</p>
+<p>​    安装<a href="https://github.com/7ym0n/hexo-asset-image.git">hexo-asset-image</a>，运行<code>hexo new post &quot;文件名&quot;</code>来生成md博文时，<code>/source/_posts</code>文件夹内会生成一个与博文同名的文件夹，把图片放入该文件夹。</p>
+<p>​    使用<code>![text](文件名/图片名.png)</code>直接插入图片即可。</p>
+<a id="more"></a>
+
+<h4 id="出现的问题"><a href="#出现的问题" class="headerlink" title="出现的问题"></a>出现的问题</h4><p>​    由于hexo3版本后对很多插件支持有问题，<a href="https://github.com/CodeFalling/hexo-asset-image.git">hexo-asset-image</a>插件在处理<code>data.permalink</code>链接时出现路径错误，把年月去掉了，导致最后生成的路径为<code>%d/xxx/xxx</code>，需要对其做兼容处理，通过判断当前版本是否等于<code>3</code>的版本做不同的路径分割。</p>
+<h4 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h4><p>直接安装已经修改过得插件</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install https:&#x2F;&#x2F;github.com&#x2F;7ym0n&#x2F;hexo-asset-image --sava</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>第一章 程序设计和C语言</title>
+    <url>/2020/09/16/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%92%8CC%E8%AF%AD%E8%A8%80/</url>
+    <content><![CDATA[<h4 id="1、什么是程序？什么是程序设计？"><a href="#1、什么是程序？什么是程序设计？" class="headerlink" title="1、什么是程序？什么是程序设计？"></a>1、什么是程序？什么是程序设计？</h4><ol>
+<li><p>所谓程序，就是一组计算机能识别和执行的指令。</p>
+</li>
+<li><p>程序设计是指从确定任务到得到结果，写出文档的全过程。</p>
+<a id="more"></a>
+
+</li>
+</ol>
+<h4 id="2、-为什么需要计算机语言？高级语言有哪些特点？"><a href="#2、-为什么需要计算机语言？高级语言有哪些特点？" class="headerlink" title="2、 为什么需要计算机语言？高级语言有哪些特点？"></a>2、 为什么需要计算机语言？高级语言有哪些特点？</h4><ol>
+<li><p>计算机语言解决了人和计算机交流信息的问题，使得计算机和人都能识别。</p>
+</li>
+<li><p>数据结构比汇编和机器语言丰富；与具体机器结构的关联没有汇编以及机器语言密切；更接近自然语言更容易掌控；编写的程序要经过编译或解释计算机才能执行。</p>
+</li>
+</ol>
+<h4 id="3、正确理解以下名词及其含义："><a href="#3、正确理解以下名词及其含义：" class="headerlink" title="3、正确理解以下名词及其含义："></a>3、正确理解以下名词及其含义：</h4><ol>
+<li><strong>源程序，目标程序，可执行程序。</strong><br>源程序：用高级语言编写的程序。<br>目标程序：为源程序经编译可被计算机运行的机器码合集。<br>可执行程序：将所有编译后得到的目标模块连接装配起来，在与函数库相连接成为一个整体，生成一个可供计算机执行的目标程序，称为可执行程序。</li>
+<li><strong>程序编辑，程序编译，程序连接。</strong><br>程序编辑：上机输入和编辑源程序。<br>程序编译：先用C提供的“预处理器”对程序中的的预处理指令进行编译预处理；对源程序进行检查，判定它有语法方面的错误，直到没有语法错误为止；编译程序自动把源程序转化为二进制形式的目标程序。<br>程序连接：将所有编译后得到的目标模块连接装配起来，在于函数库相连接成为一个整体的过程称之为程序连接。</li>
+<li><strong>程序，程序模块，程序文件。</strong><br>程序：一组计算机能识别和执行的指令。<br>程序模块：可由汇编程序、编译程序、装入程序或翻译程序作为一个整体来处理的一级独立的、可识别的程序指令。<br>程序文件：程序的文件称为程序文件，程序文件存储的是程序，包括源程序和可执行程序。</li>
+<li><strong>函数，主函数，被调用函数，库函数</strong><br>函数：将一段经常需要使用的代码封装起来，在需要使用时可以直接调用，来完成一些功能。<br>主函数：又称main函数，是程序的起点。<br>被调用函数：由一个函数调用另一个函数，则称第二个函数为被调用函数。<br>库函数：一般是指编译器提供的可在C源程序中调用的函数。可分为两类，一类是C语言标准规定的库函数，一类是编译器特定的库函数。</li>
+<li><strong>程序调试，程序测试</strong><br>程序调试：是将编制的程序投入实际运行前，用手工或编译程序等方法进行测试，修正语法错误和逻辑错误的过程。<br>程序测试：只是对一个完成了全部或部分功能、模块的计算机程序正式使用前的检测，以确保该程序能按预定的方式正确地运行。</li>
+</ol>
+<h4 id="4、编写一个C程序，运行时输出-Hello-World！"><a href="#4、编写一个C程序，运行时输出-Hello-World！" class="headerlink" title="4、编写一个C程序，运行时输出 Hello World！"></a>4、编写一个C程序，运行时输出 Hello World！</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello World!\n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="5、编写一个C程序，运行时输出以下图形："><a href="#5、编写一个C程序，运行时输出以下图形：" class="headerlink" title="5、编写一个C程序，运行时输出以下图形："></a>5、编写一个C程序，运行时输出以下图形：</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">*****</span><br><span class="line">  *****</span><br><span class="line">   *****</span><br><span class="line">    *****</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;*****\n&quot;</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;  *****\n&quot;</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;    *****\n&quot;</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;       *****\n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="6、编写一个C程序，输入a，b，c三个值，输出其中最大者。"><a href="#6、编写一个C程序，输入a，b，c三个值，输出其中最大者。" class="headerlink" title="6、编写一个C程序，输入a，b，c三个值，输出其中最大者。"></a>6、编写一个C程序，输入a，b，c三个值，输出其中最大者。</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> a,b,c,max;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;please input a,b,c:\n&quot;</span>);</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d%d%d,&amp;a,&amp;b,&amp;c&quot;</span>);</span><br><span class="line">    max=a;</span><br><span class="line">    <span class="keyword">if</span>(max&lt;b)</span><br><span class="line">        max=b;</span><br><span class="line">    <span class="keyword">if</span>(max&lt;c)</span><br><span class="line">        max=c;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;max=%d\n,&amp;max&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>课后题</category>
+        <category>C程序设计</category>
+      </categories>
+      <tags>
+        <tag>C程序设计</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第二章 算法-程序的灵魂</title>
+    <url>/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/</url>
+    <content><![CDATA[<h4 id="1、什么是算法？试从日常生活中找3个例子，描述他们的算法。"><a href="#1、什么是算法？试从日常生活中找3个例子，描述他们的算法。" class="headerlink" title="1、什么是算法？试从日常生活中找3个例子，描述他们的算法。"></a>1、什么是算法？试从日常生活中找3个例子，描述他们的算法。</h4><ol>
+<li>算法：简而言之就是求解问题的步骤，对特定问题求解步骤的一种描述。</li>
+<li>生活中的例子：<ol>
+<li>考大学<br>首先填报志愿表、交报名费、拿到准考证、按时参加考试、收到录取通知书、按照日期到指定学校报到。<a id="more"></a></li>
+<li>去北京听演唱会<br>首先在网上购票、然后按时坐车到北京，坐车到演唱会会场。</li>
+<li>把大象放进冰箱<br>先打开冰箱门，然后将大象放进冰箱，关冰箱。</li>
+</ol>
+</li>
+</ol>
+<h4 id="2、什么叫结构化的算法？为什么提倡结构化的算法？"><a href="#2、什么叫结构化的算法？为什么提倡结构化的算法？" class="headerlink" title="2、什么叫结构化的算法？为什么提倡结构化的算法？"></a>2、什么叫结构化的算法？为什么提倡结构化的算法？</h4><ol>
+<li>结构化算法：由一些顺序、选择、循环等基本结构按照顺序组成，流程的转移只存在于一个基本的范围之内。</li>
+<li>结构化算法所得程序便于编写、阅读、修改和维护，这样就减少了程序出错的机会，提高了程序的可读性，保证了程序的质量。</li>
+</ol>
+<h4 id="3、试述3种基本结构的特点，请另外设计两种基本结构（要符合基本结构的的特点）。"><a href="#3、试述3种基本结构的特点，请另外设计两种基本结构（要符合基本结构的的特点）。" class="headerlink" title="3、试述3种基本结构的特点，请另外设计两种基本结构（要符合基本结构的的特点）。"></a>3、试述3种基本结构的特点，请另外设计两种基本结构（要符合基本结构的的特点）。</h4><ol>
+<li><p>三种基本结构的特点：</p>
+<ol>
+<li>顺序结构：顺序结构是一种线性的、有序的结构，它依次执行各语句模块。</li>
+<li>选择结构：选择结构是根据条件成立与否选择程序执行的通路。</li>
+<li>循环结构：循环结构是重复执行一个或几个模块，直到满足某一条件位置。</li>
+</ol>
+</li>
+<li><p>设计两种基本机构<br>基本结构的特点：</p>
+<ol>
+<li>只有一个入口</li>
+<li>只有一个出口</li>
+<li>结构内的每一部分都会有机会执行到</li>
+<li>结构内不存在死循环</li>
+</ol>
+<p>给出以下两种基本机构：</p>
+<ol>
+<li>​    while型和until型符合结构<br><img src="/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/while%E5%9E%8B%E5%92%8Cuntil%E5%9E%8B%E5%A4%8D%E5%90%88.jpg" alt="while型和until型复合"></li>
+<li>多分枝选择结构<br><img src="/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/%E5%A4%9A%E5%88%86%E6%9E%9D%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84.jpg" alt="多分枝选择结构"></li>
+</ol>
+</li>
+</ol>
+<h4 id="4、用传统流程图表示求解以下问题的算法"><a href="#4、用传统流程图表示求解以下问题的算法" class="headerlink" title="4、用传统流程图表示求解以下问题的算法"></a>4、用传统流程图表示求解以下问题的算法</h4><ol>
+<li><p>有两个瓶子A和B，分别盛放醋和酱油，要求将他们呼唤（即A瓶原来盛醋，现改为盛酱油，B瓶则相反）。<br>解：需要第三个瓶子C来完成交换。<br><img src="/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/4_1%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg" alt="4_1流程图"></p>
+</li>
+<li><p>依次将10个数输入，要求输出其中最大的值<br>解：程序如下</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">  <span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line">  <span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="keyword">int</span> max,a;</span><br><span class="line">  	<span class="built_in">printf</span>(<span class="string">&quot;请输入第1个数：&quot;</span>); </span><br><span class="line">  	<span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;max);</span><br><span class="line">  	<span class="keyword">int</span> i=<span class="number">1</span>;</span><br><span class="line">  	<span class="keyword">while</span>(i&lt;<span class="number">10</span>)&#123;</span><br><span class="line">  		<span class="built_in">printf</span>(<span class="string">&quot;请输入第%d个数：&quot;</span>,i+<span class="number">1</span>);</span><br><span class="line">  		<span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;a);</span><br><span class="line">  		<span class="keyword">if</span>(a&gt;max) </span><br><span class="line">  		max=a;</span><br><span class="line">  		++i;</span><br><span class="line">  	&#125;</span><br><span class="line">  	<span class="built_in">printf</span>(<span class="string">&quot;max=%d&quot;</span>,max);</span><br><span class="line">  	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">  &#125; </span><br></pre></td></tr></table></figure>
+
+<p>顺序图如下：</p>
+<p> <img src="/2020/09/18/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%AE%97%E6%B3%95-%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%81%B5%E9%AD%82/4_2%E6%B5%81%E7%A8%8B%E5%9B%BE.png" alt="4_2流程图"></p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>课后题</category>
+        <category>C程序设计</category>
+      </categories>
+      <tags>
+        <tag>C程序设计</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>面向对象和封装</title>
+    <url>/2019/10/12/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%92%8C%E5%B0%81%E8%A3%85/</url>
+    <content><![CDATA[<h4 id="第1章-面向对象思想"><a href="#第1章-面向对象思想" class="headerlink" title="第1章    面向对象思想"></a>第1章    面向对象思想</h4><h5 id="1-1-面向对象思想概述"><a href="#1-1-面向对象思想概述" class="headerlink" title="1.1    面向对象思想概述"></a>1.1    面向对象思想概述</h5><h6 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h6><p>Java语言是一种面向对象的程序设计语言，而面向对象思想是一种程序设计思想，我们在面向对象思想的指引下， 使用Java语言去设计、开发计算机程序。 这里的<strong>对象</strong>泛指现实中一切事物，每种事物都具备自己的属性和行为。面 向对象思想就是在计算机程序设计过程中，参照现实中事物，将事物的属性特征、行为特征抽象出来，描述成计算 机事件的设计思想。 它区别于面向过程思想，强调的是通过调用对象的行为来实现功能，而不是自己一步一步的去 操作实现。</p>
+<a id="more"></a>
+
+<h6 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h6><p>洗衣服：</p>
+<ul>
+<li>面向过程：把衣服脱下来–&gt;找一个盆–&gt;放点洗衣粉–&gt;加点水–&gt;浸泡10分钟–&gt;揉一揉–&gt;清洗衣服–&gt;拧干–&gt;晾 起来</li>
+<li>面向对象：把衣服脱下来–&gt;打开全自动洗衣机–&gt;扔衣服–&gt;按钮–&gt;晾起来</li>
+</ul>
+<p>区别：</p>
+<ul>
+<li>面向过程：强调步骤。</li>
+<li>面向对象：强调对象，这里的对象就是洗衣机。</li>
+</ul>
+<h6 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h6><p>面向对象思想是一种更符合我们思考习惯的思想，它可以将复杂的事情简单化，并将我们从执行者变成了指挥者。 面向对象的语言中，包含了三大基本特征，即封装、继承和多态。</p>
+<h5 id="1-2-类和对象"><a href="#1-2-类和对象" class="headerlink" title="1.2    类和对象"></a>1.2    类和对象</h5><p>环顾周围，你会发现很多对象，比如桌子，椅子，同学，老师等。桌椅属于办公用品，师生都是人类。那么什么是 类呢？什么是对象呢？</p>
+<h6 id="什么是类"><a href="#什么是类" class="headerlink" title="什么是类"></a>什么是类</h6><ul>
+<li><strong>类：</strong>是一组相关<strong>属性</strong>和<strong>行为</strong>的集合。可以看成是一类事物的模板，使用事物的属性特征和行为特征来描述该类事物。</li>
+<li><strong>属性：</strong>就是该事物的状态信息。</li>
+<li><strong>行为：</strong>就是该事物能够做什么。</li>
+</ul>
+<p>举例：一只小猫</p>
+<p>​    属性：tom、5kg、2 years、yellow。 行为：溜墙根走、蹦跶的跑、喵喵叫。</p>
+<h6 id="类与对象的关系"><a href="#类与对象的关系" class="headerlink" title="类与对象的关系"></a>类与对象的关系</h6><ul>
+<li>类是对一类事物的描述，是<strong>抽象的</strong>。</li>
+<li>对象是一类事物的实例，是<strong>具体的</strong>。</li>
+<li><strong>类是对象的模板，对象是类的实体</strong>。</li>
+</ul>
+<p><img src="/2019/10/12/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%92%8C%E5%B0%81%E8%A3%85/1567129330679.png" alt="1567129330679"></p>
+<h5 id="1-类的定义"><a href="#1-类的定义" class="headerlink" title="1.    类的定义"></a>1.    类的定义</h5><h6 id="事物与类的对比"><a href="#事物与类的对比" class="headerlink" title="事物与类的对比"></a>事物与类的对比</h6><p>现实世界的一类事物</p>
+<p>​    <strong>属性：</strong>事物的状态信息。    </p>
+<p>​    <strong>行为：</strong>事物能够做什么。</p>
+<p>java中用class描述事物也是如此：</p>
+<p>​    <strong>成员变量：</strong>对应事物的属性 。</p>
+<p>​    <strong>成员方法：</strong>对应事物的<strong>行为</strong>。</p>
+<h6 id="类的定义格式"><a href="#类的定义格式" class="headerlink" title="类的定义格式"></a>类的定义格式</h6><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ClassName</span> </span>&#123;   </span><br><span class="line">  <span class="comment">//成员变量</span></span><br><span class="line">  <span class="comment">//成员方法 </span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>定义类：就是定义类的成员，包括<strong>成员变量</strong>和<strong>成员方法</strong>。</p>
+<p><strong>成员变量：</strong>和以前定义变量几乎是一样的。只不过位置发生改变。<strong>在类中，方法外。</strong></p>
+<p><strong>成员方法：</strong>和以前定义方法几乎是一样的。只不过<strong>把static去掉</strong>，static的作用在面向对象讲解。</p>
+<p>类的定义格式举例：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Student</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 成员变量</span></span><br><span class="line">    String name; <span class="comment">// 姓名</span></span><br><span class="line">    <span class="keyword">int</span> age; <span class="comment">// 姓名</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 成员方法</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">eat</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;吃饭饭！&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">sleep</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;睡觉觉！&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">study</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;学习！&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h5 id="1-4-对象的使用"><a href="#1-4-对象的使用" class="headerlink" title="1.4    对象的使用"></a>1.4    对象的使用</h5><h6 id="对象的使用格式"><a href="#对象的使用格式" class="headerlink" title="对象的使用格式"></a>对象的使用格式</h6><p>通常情况下，一个类并不能直接使用，需要根据类创建一个对象，才能使用。</p>
+<p>1.导包：也就是指出需要使用的类，在什么位置。</p>
+<p>impot 包名称.类名称;</p>
+<p>对于和当前类属于同一个包的情况，可以省略导包语句不写。</p>
+<p>2.创建对象，格式：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">类名 对象名 = <span class="keyword">new</span> 类名();</span><br></pre></td></tr></table></figure>
+
+<p>3.使用对象访问类的成员：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">对象名.成员变量名; <span class="comment">//使用成员变量</span></span><br><span class="line">对象名.成员方法名(参数);<span class="comment">//使用成员方法</span></span><br><span class="line">(也就是，想用谁，就用对象名点儿谁)</span><br></pre></td></tr></table></figure>
+
+<p>对象的使用格式举例：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">注意事项：</span></span><br><span class="line"><span class="comment">如果成员变量没有进行赋值，那么将会有一个默认值，规则和数组一样。</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo02Student</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">// 1. 导包。</span></span><br><span class="line">        <span class="comment">// 我需要使用的Student类，和我自己Demo02Student位于同一个包下，所以省略导包语句不写</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">// 2. 创建，格式：</span></span><br><span class="line">        <span class="comment">// 类名称 对象名 = new 类名称();</span></span><br><span class="line">        <span class="comment">// 根据Student类，创建了一个名为stu的对象</span></span><br><span class="line">        Student stu = <span class="keyword">new</span> Student();</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 3. 使用其中的成员变量，格式：</span></span><br><span class="line">        <span class="comment">// 对象名.成员变量名</span></span><br><span class="line">        System.out.println(stu.name); <span class="comment">// null</span></span><br><span class="line">        System.out.println(stu.age); <span class="comment">// 0</span></span><br><span class="line">        System.out.println(<span class="string">&quot;=============&quot;</span>);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 改变对象当中的成员变量数值内容</span></span><br><span class="line">        <span class="comment">// 将右侧的字符串，赋值交给stu对象当中的name成员变量</span></span><br><span class="line">        stu.name = <span class="string">&quot;赵丽颖&quot;</span>;</span><br><span class="line">        stu.age = <span class="number">18</span>;</span><br><span class="line">        System.out.println(stu.name); <span class="comment">// 赵丽颖</span></span><br><span class="line">        System.out.println(stu.age); <span class="comment">// 18</span></span><br><span class="line">        System.out.println(<span class="string">&quot;=============&quot;</span>);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 4. 使用对象的成员方法，格式：</span></span><br><span class="line">        <span class="comment">// 对象名.成员方法名()</span></span><br><span class="line">        stu.eat();</span><br><span class="line">        stu.sleep();</span><br><span class="line">        stu.study();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h6 id="成员变量的默认值"><a href="#成员变量的默认值" class="headerlink" title="成员变量的默认值"></a>成员变量的默认值</h6><table>
+<thead>
+<tr>
+<th></th>
+<th><strong>数据类型</strong></th>
+<th><strong>默认值</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>基本类型</td>
+<td>整数（byte，short，int，long）</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>浮点数（float,double）</td>
+<td>0.0</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>字符（char）</td>
+<td>‘\u0000’</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>布尔（boolean）</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>引用类型</td>
+<td>数组，类，接口</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody></table>
+<h5 id="1-5-类与对象的练习"><a href="#1-5-类与对象的练习" class="headerlink" title="1.5    类与对象的练习"></a>1.5    类与对象的练习</h5><h6 id="定义手机类："><a href="#定义手机类：" class="headerlink" title="定义手机类："></a>定义手机类：</h6><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">定义一个类，用来模拟“手机”事物。</span></span><br><span class="line"><span class="comment">属性：品牌、价格、颜色</span></span><br><span class="line"><span class="comment">行为：打电话、发短信</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">对应到类当中：</span></span><br><span class="line"><span class="comment">成员变量（属性）：</span></span><br><span class="line"><span class="comment">    String brand; // 品牌</span></span><br><span class="line"><span class="comment">    double price; // 价格</span></span><br><span class="line"><span class="comment">    String color; // 颜色</span></span><br><span class="line"><span class="comment">成员方法（行为）：</span></span><br><span class="line"><span class="comment">    public void call(String who) &#123;&#125; // 打电话</span></span><br><span class="line"><span class="comment">    public void sendMessage() &#123;&#125; // 群发短信</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Phone</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 成员变量</span></span><br><span class="line">    String brand; <span class="comment">// 品牌</span></span><br><span class="line">    <span class="keyword">double</span> price; <span class="comment">// 价格</span></span><br><span class="line">    String color; <span class="comment">// 颜色</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 成员方法</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">call</span><span class="params">(String who)</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;给&quot;</span> + who + <span class="string">&quot;打电话&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">sendMessage</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;群发短信&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h6 id="定义测试类"><a href="#定义测试类" class="headerlink" title="定义测试类"></a>定义测试类</h6><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo01PhoneOne</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">// 根据Phone类，创建一个名为one的对象</span></span><br><span class="line">        <span class="comment">// 格式：类名称 对象名 = new 类名称();</span></span><br><span class="line">        Phone one = <span class="keyword">new</span> Phone();</span><br><span class="line">        System.out.println(one.brand); <span class="comment">// null</span></span><br><span class="line">        System.out.println(one.price); <span class="comment">// 0.0</span></span><br><span class="line">        System.out.println(one.color); <span class="comment">// null</span></span><br><span class="line">        System.out.println(<span class="string">&quot;=========&quot;</span>);</span><br><span class="line"></span><br><span class="line">        one.brand = <span class="string">&quot;苹果&quot;</span>;</span><br><span class="line">        one.price = <span class="number">8388.0</span>;</span><br><span class="line">        one.color = <span class="string">&quot;黑色&quot;</span>;</span><br><span class="line">        System.out.println(one.brand); <span class="comment">// 苹果</span></span><br><span class="line">        System.out.println(one.price); <span class="comment">// 8388.0</span></span><br><span class="line">        System.out.println(one.color); <span class="comment">// 黑色</span></span><br><span class="line">        System.out.println(<span class="string">&quot;=========&quot;</span>);</span><br><span class="line"></span><br><span class="line">        one.call(<span class="string">&quot;乔布斯&quot;</span>); <span class="comment">// 给乔布斯打电话</span></span><br><span class="line">        one.sendMessage(); <span class="comment">// 群发短信</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="1-6-对象内存图"><a href="#1-6-对象内存图" class="headerlink" title="1.6    对象内存图"></a>1.6    对象内存图</h5><h6 id="一个对象，调用一个方法的内存图"><a href="#一个对象，调用一个方法的内存图" class="headerlink" title="一个对象，调用一个方法的内存图"></a>一个对象，调用一个方法的内存图</h6><p><img src="/2019/10/12/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%92%8C%E5%B0%81%E8%A3%85/01-%E5%8F%AA%E6%9C%89%E4%B8%80%E4%B8%AA%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%86%85%E5%AD%98%E5%9B%BE.png" alt="01-只有一个对象的内存图"></p>
+<p>通过上图，我们可以理解，在栈内存中运行的方法，遵循”先进后出，后进先出”的原则。变量one指向堆内存中 的空间，寻找方法信息，去执行该方法。</p>
+<p>但是，这里依然有问题存在。创建多个对象时，如果每个对象内部都保存一份方法信息，这就非常浪费内存 了，因为所有对象的方法信息都是一样的。那么如何解决这个问题呢？请看如下图解。</p>
+<h6 id="两个对象，调用同一方法的内存图"><a href="#两个对象，调用同一方法的内存图" class="headerlink" title="两个对象，调用同一方法的内存图"></a>两个对象，调用同一方法的内存图</h6><p><img src="/2019/10/12/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%92%8C%E5%B0%81%E8%A3%85/02-%E4%B8%A4%E4%B8%AA%E5%AF%B9%E8%B1%A1%E4%BD%BF%E7%94%A8%E5%90%8C%E4%B8%80%E4%B8%AA%E6%96%B9%E6%B3%95%E7%9A%84%E5%86%85%E5%AD%98%E5%9B%BE.png" alt="02-两个对象使用同一个方法的内存图"></p>
+<h6 id="使用对象类型作为方法的参"><a href="#使用对象类型作为方法的参" class="headerlink" title="使用对象类型作为方法的参"></a>使用对象类型作为方法的参</h6><p><img src="/2019/10/12/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%92%8C%E5%B0%81%E8%A3%85/04-%E4%BD%BF%E7%94%A8%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E4%BD%9C%E4%B8%BA%E6%96%B9%E6%B3%95%E7%9A%84%E5%8F%82%E6%95%B0.png" alt="04-使用对象类型作为方法的参数"></p>
+<h6 id="使用对象类型作为方法的返回值"><a href="#使用对象类型作为方法的返回值" class="headerlink" title="使用对象类型作为方法的返回值"></a>使用对象类型作为方法的返回值</h6><h5 id><a href="#" class="headerlink" title></a><img src="/2019/10/12/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%92%8C%E5%B0%81%E8%A3%85/05-%E4%BD%BF%E7%94%A8%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E4%BD%9C%E4%B8%BA%E6%96%B9%E6%B3%95%E7%9A%84%E8%BF%94%E5%9B%9E%E5%80%BC.png" alt="05-使用对象类型作为方法的返回值"></h5><h5 id="1-7-成员变量和局部变量的区别"><a href="#1-7-成员变量和局部变量的区别" class="headerlink" title="1.7 成员变量和局部变量的区别"></a>1.7 成员变量和局部变量的区别</h5><p>变量根据定义位置的不同，我们给变量起了不同的名字。如下图所示：</p>
+<p><img src="/2019/10/12/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%92%8C%E5%B0%81%E8%A3%85/1567667123760.png" alt="1567667123760"></p>
+<p><strong>1.在类中的位置不同</strong> <strong>重点</strong></p>
+<p>成员变量：类中，方法外</p>
+<p>局部变量：方法中或者方法声明上(形式参数)</p>
+<p><strong>2.作用范围不一样</strong> <strong>重点</strong></p>
+<p>成员变量：类中</p>
+<p>局部变量：方法中</p>
+<p><strong>3.初始化值的不同</strong> <strong>重点</strong></p>
+<p>成员变量：有默认值</p>
+<p>局部变量：没有默认值。必须先定义，赋值，最后使用</p>
+<p><strong>4.在内存中的位置不同</strong> 了解</p>
+<p>成员变量：堆内存</p>
+<p>局部变量：栈内存</p>
+<p><strong>5.生命周期不同</strong> 了解</p>
+<p>成员变量：随着对象的创建而存在，随着对象的消失而消失</p>
+<p>局部变量：随着方法的调用而存在，随着方法的调用完毕而消失</p>
+<h4 id="第2章-封装"><a href="#第2章-封装" class="headerlink" title="第2章 封装"></a>第2章 封装</h4><h5 id="2-1封装概述"><a href="#2-1封装概述" class="headerlink" title="2.1封装概述"></a>2.1封装概述</h5><h6 id="概述-1"><a href="#概述-1" class="headerlink" title="概述"></a>概述</h6><p>面向对象编程语言是对客观世界的模拟，客观世界里成员变量都是隐藏在对象内部的，外界无法直接操作和修改。 封装可以被认为是一个保护屏障，防止该类的代码和数据被其他类随意访问。要访问该类的数据，必须通过指定的 方式。适当的封装可以让代码更容易理解与维护，也加强了代码的安全性。</p>
+<h6 id="原则"><a href="#原则" class="headerlink" title="原则"></a>原则</h6><p>将<strong>属性隐藏</strong>起来，若需要访问某个属性，<strong>提供公共方法</strong>对其访问。</p>
+<h5 id="2-2-封装的步骤"><a href="#2-2-封装的步骤" class="headerlink" title="2.2 封装的步骤"></a>2.2 封装的步骤</h5><ol>
+<li>使用private关键字来修饰成员变量。</li>
+<li>对需要访问的成员变量，提供对应的一对getXxx方法、setXxx方法。</li>
+</ol>
+<h5 id="2-3-封装的操作——private关键字"><a href="#2-3-封装的操作——private关键字" class="headerlink" title="2.3 封装的操作——private关键字"></a>2.3 封装的操作——private关键字</h5><h6 id="private的含义"><a href="#private的含义" class="headerlink" title="private的含义"></a>private的含义</h6><ol>
+<li>private是一个权限修饰符，代表最小权限。</li>
+<li>可以修饰成员变量和成员方法。</li>
+<li>被private修饰后的成员变量和成员方法，只在本类中才能访问。</li>
+</ol>
+<h6 id="private的使用格式"><a href="#private的使用格式" class="headerlink" title="private的使用格式"></a>private的使用格式</h6><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">private</span>  数据类型 变量名 ；</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li><p>使用private修饰成员变量，代码如下：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Student</span>  </span>&#123;   </span><br><span class="line">	<span class="keyword">private</span> String name;   </span><br><span class="line">	<span class="keyword">private</span> <span class="keyword">int</span> age; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>提供 getXxx 方法 / setXxx 方法，可以访问成员变量，代码如下：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span>  <span class="class"><span class="keyword">class</span> <span class="title">Student</span>  </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> age;</span><br><span class="line"> </span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setName</span><span class="params">(String n)</span> </span>&#123;     </span><br><span class="line">      name = n;</span><br><span class="line">  &#125;</span><br><span class="line"> </span><br><span class="line">  <span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span> </span>&#123;     </span><br><span class="line">      <span class="keyword">return</span> name;</span><br><span class="line">  &#125;</span><br><span class="line"> </span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setAge</span><span class="params">(<span class="keyword">int</span> a)</span> </span>&#123;     </span><br><span class="line">      age = a;</span><br><span class="line">  &#125;</span><br><span class="line"> </span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getAge</span><span class="params">()</span> </span>&#123;</span><br><span class="line">      <span class="keyword">return</span> age;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<h5 id="2-4-封装优化——this关键字"><a href="#2-4-封装优化——this关键字" class="headerlink" title="2.4 封装优化——this关键字"></a>2.4 封装优化——this关键字</h5><p>   我们发现 setXxx 方法中的形参名字并不符合见名知意的规定，那么如果修改与成员变量名一致，是否就见名知意 了呢？代码如下：</p>
+   <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Student</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> age;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setName</span><span class="params">(String name)</span> </span>&#123;</span><br><span class="line">        name = name;</span><br><span class="line">  &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setAge</span><span class="params">(<span class="keyword">int</span> age)</span> </span>&#123;</span><br><span class="line">        age = age;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<p>   ​    经过修改和测试，我们发现新的问题，成员变量赋值失败了。也就是说，在修改了 setXxx() 的形参变量名后，方 法并没有给成员变量赋值！这是由于形参变量名与成员变量名重名，导致成员变量名被隐藏，方法中的变量名，无 法访问到成员变量，从而赋值失败。所以，我们只能使用this关键字，来解决这个重名问题。</p>
+<h6 id="this的含义"><a href="#this的含义" class="headerlink" title="this的含义"></a>this的含义</h6><p>   ​    this代表所在类的当前对象的引用（地址值），即对象自己的引用。<br>   ​    记住 ：方法被哪个对象调用，方法中的this就代表那个对象。即谁在调用，this就代表谁。</p>
+<h6 id="this使用格式"><a href="#this使用格式" class="headerlink" title="this使用格式"></a>this使用格式</h6>   <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">this</span>.成员变量名;</span><br></pre></td></tr></table></figure>
+
+<p>   使用 this 修饰方法中的变量，解决成员变量被隐藏的问题，代码如下：</p>
+   <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Student</span>  </span>&#123;</span><br><span class="line">  <span class="keyword">private</span> String name;</span><br><span class="line">  <span class="keyword">private</span> <span class="keyword">int</span> age;</span><br><span class="line"> </span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setName</span><span class="params">(String name)</span> </span>&#123;</span><br><span class="line">    <span class="comment">//name = name; </span></span><br><span class="line">    <span class="keyword">this</span>.name = name;</span><br><span class="line">  &#125;</span><br><span class="line"> </span><br><span class="line">  <span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> name;</span><br><span class="line">  &#125;</span><br><span class="line"> </span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setAge</span><span class="params">(<span class="keyword">int</span> age)</span> </span>&#123;</span><br><span class="line">    <span class="comment">//age = age; </span></span><br><span class="line">    <span class="keyword">this</span>.age = age;</span><br><span class="line">  &#125;</span><br><span class="line"> </span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getAge</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> age;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<p>小贴士：方法中只有一个变量名时，默认也是使用 this 修饰，可以省略不写。</p>
+<h5 id="2-5-封装优化2——构造方法"><a href="#2-5-封装优化2——构造方法" class="headerlink" title="2.5 封装优化2——构造方法"></a>2.5 封装优化2——构造方法</h5><p>​    <strong>当一个对象被创建时候，构造方法用来初始化该对象，给对象的成员变量赋初始值。</strong><br>​    小贴士：无论你与否自定义构造方法，所有的类都有构造方法，因为java自动提供了一个无参数构造方法， 一旦自己定义了构造方法，java自动提供的默认无参数构造方法就会失效。</p>
+<h6 id="构造方法的定义格式"><a href="#构造方法的定义格式" class="headerlink" title="构造方法的定义格式"></a>构造方法的定义格式</h6><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">修饰符 构造方法名(参数列表)&#123;</span><br><span class="line">    <span class="comment">// 方法体</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>​    构造方法的写法上，方法名与它所在的类名相同。它没有返回值，所以不需要返回值类型，甚至不需要void。使用 构造方法后，代码如下：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Student</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> age;</span><br><span class="line">    <span class="comment">// 无参数构造方法</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Student</span><span class="params">()</span> </span>&#123;&#125; </span><br><span class="line">    <span class="comment">// 有参数构造方法</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Student</span><span class="params">(String name,<span class="keyword">int</span> age)</span> </span>&#123;   </span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">        <span class="keyword">this</span>.age = age; </span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p><strong>注意事项</strong></p>
+<ol>
+<li><p>如果你不提供构造方法，系统会给出无参数构造方法。</p>
+</li>
+<li><p>如果你提供了构造方法，系统将不再提供无参数构造方法。</p>
+</li>
+<li><p>构造方法是可以重载的，既可以定义参数，也可以不定义参数。</p>
+</li>
+</ol>
+<h5 id="2-6标准代码——JavaBean"><a href="#2-6标准代码——JavaBean" class="headerlink" title="2.6标准代码——JavaBean"></a>2.6标准代码——JavaBean</h5><p>​    JavaBean 是 Java语言编写类的一种标准规范。符合 JavaBean 的类，要求类必须是具体的和公共的，并且具有无 参数的构造方法，提供用来操作成员变量的 set 和 get 方法。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ClassName</span></span>&#123;</span><br><span class="line">    <span class="comment">//成员变量</span></span><br><span class="line">    <span class="comment">//构造方法</span></span><br><span class="line">    <span class="comment">//无参构造方法【必须】</span></span><br><span class="line">    <span class="comment">//有参构造方法【建议】</span></span><br><span class="line">    <span class="comment">//成员方法    </span></span><br><span class="line">    <span class="comment">//getXxx()</span></span><br><span class="line">    <span class="comment">//setXxx()</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h6 id="规范类"><a href="#规范类" class="headerlink" title="规范类"></a>规范类</h6><p>编写符合 JavaBean 规范的类，以学生类为例，标准代码如下：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Student</span> </span>&#123;</span><br><span class="line">  <span class="comment">//成员变量</span></span><br><span class="line">  <span class="keyword">private</span> String name;</span><br><span class="line">  <span class="keyword">private</span> <span class="keyword">int</span> age;</span><br><span class="line"> </span><br><span class="line">  <span class="comment">//构造方法</span></span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="title">Student</span><span class="params">()</span> </span>&#123;&#125;</span><br><span class="line"> </span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="title">Student</span><span class="params">(String name,<span class="keyword">int</span> age)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.name = name;</span><br><span class="line">    <span class="keyword">this</span>.age = age;</span><br><span class="line">  &#125;</span><br><span class="line"> </span><br><span class="line">  <span class="comment">//成员方法</span></span><br><span class="line">  <span class="function">publicvoid <span class="title">setName</span><span class="params">(String name)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.name = name;</span><br><span class="line">  &#125;</span><br><span class="line"> </span><br><span class="line">  <span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> name;</span><br><span class="line">  &#125;</span><br><span class="line"> </span><br><span class="line">  <span class="function">publicvoid <span class="title">setAge</span><span class="params">(<span class="keyword">int</span> age)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.age = age;</span><br><span class="line">  &#125;</span><br><span class="line"> </span><br><span class="line">  <span class="function">publicint <span class="title">getAge</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> age;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h6 id="测试类"><a href="#测试类" class="headerlink" title="测试类"></a>测试类</h6><p>代码如下：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TestStudent</span> </span>&#123;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">    <span class="comment">//无参构造使用</span></span><br><span class="line">    Student s= <span class="keyword">new</span> Student();</span><br><span class="line">    s.setName(<span class="string">&quot;柳岩&quot;</span>);</span><br><span class="line">    s.setAge(<span class="number">18</span>);</span><br><span class="line">    System.out.println(s.getName()+<span class="string">&quot;‐‐‐&quot;</span>+s.getAge());</span><br><span class="line">    <span class="comment">//带参构造使用</span></span><br><span class="line">      Student s2= <span class="keyword">new</span> Student(<span class="string">&quot;赵丽颖&quot;</span>,<span class="number">18</span>);</span><br><span class="line">  System.out.println(s2.getName()+<span class="string">&quot;‐‐‐&quot;</span>+s2.getAge());   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
         <category>笔记</category>
@@ -867,200 +1061,6 @@ java HelloWorld
 <p>​    任何数据类型都能作为方法的参数类型，或者返回值类型。</p>
 <p>​    数组作为方法的参数，传递进去的其实是数组的地址值。<br>​    数组作为方法的返回值，返回的其实也是数组的地址值。</p>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span>[] calculate(<span class="keyword">int</span> a, <span class="keyword">int</span> b, <span class="keyword">int</span> c) &#123;</span><br><span class="line">    <span class="keyword">int</span> sum = a + b + c; <span class="comment">// 总和</span></span><br><span class="line">    <span class="keyword">int</span> avg = sum / <span class="number">3</span>; <span class="comment">// 平均数</span></span><br><span class="line">    <span class="comment">// 两个结果都希望进行返回</span></span><br><span class="line">    <span class="comment">// 需要一个数组，也就是一个塑料兜，数组可以保存多个结果</span></span><br><span class="line">    <span class="keyword">int</span>[] array = &#123; sum, avg &#125;;</span><br><span class="line">    System.out.println(<span class="string">&quot;calculate方法内部数组是：&quot;</span>);</span><br><span class="line">    System.out.println(array); <span class="comment">// 地址值</span></span><br><span class="line">    <span class="keyword">return</span> array;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>笔记</category>
-        <category>JAVA</category>
-      </categories>
-      <tags>
-        <tag>JAVA</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>面向对象和封装</title>
-    <url>/2019/10/12/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%92%8C%E5%B0%81%E8%A3%85/</url>
-    <content><![CDATA[<h4 id="第1章-面向对象思想"><a href="#第1章-面向对象思想" class="headerlink" title="第1章    面向对象思想"></a>第1章    面向对象思想</h4><h5 id="1-1-面向对象思想概述"><a href="#1-1-面向对象思想概述" class="headerlink" title="1.1    面向对象思想概述"></a>1.1    面向对象思想概述</h5><h6 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h6><p>Java语言是一种面向对象的程序设计语言，而面向对象思想是一种程序设计思想，我们在面向对象思想的指引下， 使用Java语言去设计、开发计算机程序。 这里的<strong>对象</strong>泛指现实中一切事物，每种事物都具备自己的属性和行为。面 向对象思想就是在计算机程序设计过程中，参照现实中事物，将事物的属性特征、行为特征抽象出来，描述成计算 机事件的设计思想。 它区别于面向过程思想，强调的是通过调用对象的行为来实现功能，而不是自己一步一步的去 操作实现。</p>
-<a id="more"></a>
-
-<h6 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h6><p>洗衣服：</p>
-<ul>
-<li>面向过程：把衣服脱下来–&gt;找一个盆–&gt;放点洗衣粉–&gt;加点水–&gt;浸泡10分钟–&gt;揉一揉–&gt;清洗衣服–&gt;拧干–&gt;晾 起来</li>
-<li>面向对象：把衣服脱下来–&gt;打开全自动洗衣机–&gt;扔衣服–&gt;按钮–&gt;晾起来</li>
-</ul>
-<p>区别：</p>
-<ul>
-<li>面向过程：强调步骤。</li>
-<li>面向对象：强调对象，这里的对象就是洗衣机。</li>
-</ul>
-<h6 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h6><p>面向对象思想是一种更符合我们思考习惯的思想，它可以将复杂的事情简单化，并将我们从执行者变成了指挥者。 面向对象的语言中，包含了三大基本特征，即封装、继承和多态。</p>
-<h5 id="1-2-类和对象"><a href="#1-2-类和对象" class="headerlink" title="1.2    类和对象"></a>1.2    类和对象</h5><p>环顾周围，你会发现很多对象，比如桌子，椅子，同学，老师等。桌椅属于办公用品，师生都是人类。那么什么是 类呢？什么是对象呢？</p>
-<h6 id="什么是类"><a href="#什么是类" class="headerlink" title="什么是类"></a>什么是类</h6><ul>
-<li><strong>类：</strong>是一组相关<strong>属性</strong>和<strong>行为</strong>的集合。可以看成是一类事物的模板，使用事物的属性特征和行为特征来描述该类事物。</li>
-<li><strong>属性：</strong>就是该事物的状态信息。</li>
-<li><strong>行为：</strong>就是该事物能够做什么。</li>
-</ul>
-<p>举例：一只小猫</p>
-<p>​    属性：tom、5kg、2 years、yellow。 行为：溜墙根走、蹦跶的跑、喵喵叫。</p>
-<h6 id="类与对象的关系"><a href="#类与对象的关系" class="headerlink" title="类与对象的关系"></a>类与对象的关系</h6><ul>
-<li>类是对一类事物的描述，是<strong>抽象的</strong>。</li>
-<li>对象是一类事物的实例，是<strong>具体的</strong>。</li>
-<li><strong>类是对象的模板，对象是类的实体</strong>。</li>
-</ul>
-<p><img src="/2019/10/12/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%92%8C%E5%B0%81%E8%A3%85/1567129330679.png" alt="1567129330679"></p>
-<h5 id="1-类的定义"><a href="#1-类的定义" class="headerlink" title="1.    类的定义"></a>1.    类的定义</h5><h6 id="事物与类的对比"><a href="#事物与类的对比" class="headerlink" title="事物与类的对比"></a>事物与类的对比</h6><p>现实世界的一类事物</p>
-<p>​    <strong>属性：</strong>事物的状态信息。    </p>
-<p>​    <strong>行为：</strong>事物能够做什么。</p>
-<p>java中用class描述事物也是如此：</p>
-<p>​    <strong>成员变量：</strong>对应事物的属性 。</p>
-<p>​    <strong>成员方法：</strong>对应事物的<strong>行为</strong>。</p>
-<h6 id="类的定义格式"><a href="#类的定义格式" class="headerlink" title="类的定义格式"></a>类的定义格式</h6><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ClassName</span> </span>&#123;   </span><br><span class="line">  <span class="comment">//成员变量</span></span><br><span class="line">  <span class="comment">//成员方法 </span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>定义类：就是定义类的成员，包括<strong>成员变量</strong>和<strong>成员方法</strong>。</p>
-<p><strong>成员变量：</strong>和以前定义变量几乎是一样的。只不过位置发生改变。<strong>在类中，方法外。</strong></p>
-<p><strong>成员方法：</strong>和以前定义方法几乎是一样的。只不过<strong>把static去掉</strong>，static的作用在面向对象讲解。</p>
-<p>类的定义格式举例：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Student</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 成员变量</span></span><br><span class="line">    String name; <span class="comment">// 姓名</span></span><br><span class="line">    <span class="keyword">int</span> age; <span class="comment">// 姓名</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 成员方法</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">eat</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;吃饭饭！&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">sleep</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;睡觉觉！&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">study</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;学习！&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h5 id="1-4-对象的使用"><a href="#1-4-对象的使用" class="headerlink" title="1.4    对象的使用"></a>1.4    对象的使用</h5><h6 id="对象的使用格式"><a href="#对象的使用格式" class="headerlink" title="对象的使用格式"></a>对象的使用格式</h6><p>通常情况下，一个类并不能直接使用，需要根据类创建一个对象，才能使用。</p>
-<p>1.导包：也就是指出需要使用的类，在什么位置。</p>
-<p>impot 包名称.类名称;</p>
-<p>对于和当前类属于同一个包的情况，可以省略导包语句不写。</p>
-<p>2.创建对象，格式：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">类名 对象名 = <span class="keyword">new</span> 类名();</span><br></pre></td></tr></table></figure>
-
-<p>3.使用对象访问类的成员：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">对象名.成员变量名; <span class="comment">//使用成员变量</span></span><br><span class="line">对象名.成员方法名(参数);<span class="comment">//使用成员方法</span></span><br><span class="line">(也就是，想用谁，就用对象名点儿谁)</span><br></pre></td></tr></table></figure>
-
-<p>对象的使用格式举例：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">注意事项：</span></span><br><span class="line"><span class="comment">如果成员变量没有进行赋值，那么将会有一个默认值，规则和数组一样。</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo02Student</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">// 1. 导包。</span></span><br><span class="line">        <span class="comment">// 我需要使用的Student类，和我自己Demo02Student位于同一个包下，所以省略导包语句不写</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">// 2. 创建，格式：</span></span><br><span class="line">        <span class="comment">// 类名称 对象名 = new 类名称();</span></span><br><span class="line">        <span class="comment">// 根据Student类，创建了一个名为stu的对象</span></span><br><span class="line">        Student stu = <span class="keyword">new</span> Student();</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 3. 使用其中的成员变量，格式：</span></span><br><span class="line">        <span class="comment">// 对象名.成员变量名</span></span><br><span class="line">        System.out.println(stu.name); <span class="comment">// null</span></span><br><span class="line">        System.out.println(stu.age); <span class="comment">// 0</span></span><br><span class="line">        System.out.println(<span class="string">&quot;=============&quot;</span>);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 改变对象当中的成员变量数值内容</span></span><br><span class="line">        <span class="comment">// 将右侧的字符串，赋值交给stu对象当中的name成员变量</span></span><br><span class="line">        stu.name = <span class="string">&quot;赵丽颖&quot;</span>;</span><br><span class="line">        stu.age = <span class="number">18</span>;</span><br><span class="line">        System.out.println(stu.name); <span class="comment">// 赵丽颖</span></span><br><span class="line">        System.out.println(stu.age); <span class="comment">// 18</span></span><br><span class="line">        System.out.println(<span class="string">&quot;=============&quot;</span>);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 4. 使用对象的成员方法，格式：</span></span><br><span class="line">        <span class="comment">// 对象名.成员方法名()</span></span><br><span class="line">        stu.eat();</span><br><span class="line">        stu.sleep();</span><br><span class="line">        stu.study();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h6 id="成员变量的默认值"><a href="#成员变量的默认值" class="headerlink" title="成员变量的默认值"></a>成员变量的默认值</h6><table>
-<thead>
-<tr>
-<th></th>
-<th><strong>数据类型</strong></th>
-<th><strong>默认值</strong></th>
-<th></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>基本类型</td>
-<td>整数（byte，short，int，long）</td>
-<td>0</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>浮点数（float,double）</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>字符（char）</td>
-<td>‘\u0000’</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>布尔（boolean）</td>
-<td>false</td>
-<td></td>
-</tr>
-<tr>
-<td>引用类型</td>
-<td>数组，类，接口</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody></table>
-<h5 id="1-5-类与对象的练习"><a href="#1-5-类与对象的练习" class="headerlink" title="1.5    类与对象的练习"></a>1.5    类与对象的练习</h5><h6 id="定义手机类："><a href="#定义手机类：" class="headerlink" title="定义手机类："></a>定义手机类：</h6><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">定义一个类，用来模拟“手机”事物。</span></span><br><span class="line"><span class="comment">属性：品牌、价格、颜色</span></span><br><span class="line"><span class="comment">行为：打电话、发短信</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">对应到类当中：</span></span><br><span class="line"><span class="comment">成员变量（属性）：</span></span><br><span class="line"><span class="comment">    String brand; // 品牌</span></span><br><span class="line"><span class="comment">    double price; // 价格</span></span><br><span class="line"><span class="comment">    String color; // 颜色</span></span><br><span class="line"><span class="comment">成员方法（行为）：</span></span><br><span class="line"><span class="comment">    public void call(String who) &#123;&#125; // 打电话</span></span><br><span class="line"><span class="comment">    public void sendMessage() &#123;&#125; // 群发短信</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Phone</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 成员变量</span></span><br><span class="line">    String brand; <span class="comment">// 品牌</span></span><br><span class="line">    <span class="keyword">double</span> price; <span class="comment">// 价格</span></span><br><span class="line">    String color; <span class="comment">// 颜色</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 成员方法</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">call</span><span class="params">(String who)</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;给&quot;</span> + who + <span class="string">&quot;打电话&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">sendMessage</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;群发短信&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h6 id="定义测试类"><a href="#定义测试类" class="headerlink" title="定义测试类"></a>定义测试类</h6><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo01PhoneOne</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">// 根据Phone类，创建一个名为one的对象</span></span><br><span class="line">        <span class="comment">// 格式：类名称 对象名 = new 类名称();</span></span><br><span class="line">        Phone one = <span class="keyword">new</span> Phone();</span><br><span class="line">        System.out.println(one.brand); <span class="comment">// null</span></span><br><span class="line">        System.out.println(one.price); <span class="comment">// 0.0</span></span><br><span class="line">        System.out.println(one.color); <span class="comment">// null</span></span><br><span class="line">        System.out.println(<span class="string">&quot;=========&quot;</span>);</span><br><span class="line"></span><br><span class="line">        one.brand = <span class="string">&quot;苹果&quot;</span>;</span><br><span class="line">        one.price = <span class="number">8388.0</span>;</span><br><span class="line">        one.color = <span class="string">&quot;黑色&quot;</span>;</span><br><span class="line">        System.out.println(one.brand); <span class="comment">// 苹果</span></span><br><span class="line">        System.out.println(one.price); <span class="comment">// 8388.0</span></span><br><span class="line">        System.out.println(one.color); <span class="comment">// 黑色</span></span><br><span class="line">        System.out.println(<span class="string">&quot;=========&quot;</span>);</span><br><span class="line"></span><br><span class="line">        one.call(<span class="string">&quot;乔布斯&quot;</span>); <span class="comment">// 给乔布斯打电话</span></span><br><span class="line">        one.sendMessage(); <span class="comment">// 群发短信</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h5 id="1-6-对象内存图"><a href="#1-6-对象内存图" class="headerlink" title="1.6    对象内存图"></a>1.6    对象内存图</h5><h6 id="一个对象，调用一个方法的内存图"><a href="#一个对象，调用一个方法的内存图" class="headerlink" title="一个对象，调用一个方法的内存图"></a>一个对象，调用一个方法的内存图</h6><p><img src="/2019/10/12/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%92%8C%E5%B0%81%E8%A3%85/01-%E5%8F%AA%E6%9C%89%E4%B8%80%E4%B8%AA%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%86%85%E5%AD%98%E5%9B%BE.png" alt="01-只有一个对象的内存图"></p>
-<p>通过上图，我们可以理解，在栈内存中运行的方法，遵循”先进后出，后进先出”的原则。变量one指向堆内存中 的空间，寻找方法信息，去执行该方法。</p>
-<p>但是，这里依然有问题存在。创建多个对象时，如果每个对象内部都保存一份方法信息，这就非常浪费内存 了，因为所有对象的方法信息都是一样的。那么如何解决这个问题呢？请看如下图解。</p>
-<h6 id="两个对象，调用同一方法的内存图"><a href="#两个对象，调用同一方法的内存图" class="headerlink" title="两个对象，调用同一方法的内存图"></a>两个对象，调用同一方法的内存图</h6><p><img src="/2019/10/12/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%92%8C%E5%B0%81%E8%A3%85/02-%E4%B8%A4%E4%B8%AA%E5%AF%B9%E8%B1%A1%E4%BD%BF%E7%94%A8%E5%90%8C%E4%B8%80%E4%B8%AA%E6%96%B9%E6%B3%95%E7%9A%84%E5%86%85%E5%AD%98%E5%9B%BE.png" alt="02-两个对象使用同一个方法的内存图"></p>
-<h6 id="使用对象类型作为方法的参"><a href="#使用对象类型作为方法的参" class="headerlink" title="使用对象类型作为方法的参"></a>使用对象类型作为方法的参</h6><p><img src="/2019/10/12/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%92%8C%E5%B0%81%E8%A3%85/04-%E4%BD%BF%E7%94%A8%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E4%BD%9C%E4%B8%BA%E6%96%B9%E6%B3%95%E7%9A%84%E5%8F%82%E6%95%B0.png" alt="04-使用对象类型作为方法的参数"></p>
-<h6 id="使用对象类型作为方法的返回值"><a href="#使用对象类型作为方法的返回值" class="headerlink" title="使用对象类型作为方法的返回值"></a>使用对象类型作为方法的返回值</h6><h5 id><a href="#" class="headerlink" title></a><img src="/2019/10/12/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%92%8C%E5%B0%81%E8%A3%85/05-%E4%BD%BF%E7%94%A8%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E4%BD%9C%E4%B8%BA%E6%96%B9%E6%B3%95%E7%9A%84%E8%BF%94%E5%9B%9E%E5%80%BC.png" alt="05-使用对象类型作为方法的返回值"></h5><h5 id="1-7-成员变量和局部变量的区别"><a href="#1-7-成员变量和局部变量的区别" class="headerlink" title="1.7 成员变量和局部变量的区别"></a>1.7 成员变量和局部变量的区别</h5><p>变量根据定义位置的不同，我们给变量起了不同的名字。如下图所示：</p>
-<p><img src="/2019/10/12/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%92%8C%E5%B0%81%E8%A3%85/1567667123760.png" alt="1567667123760"></p>
-<p><strong>1.在类中的位置不同</strong> <strong>重点</strong></p>
-<p>成员变量：类中，方法外</p>
-<p>局部变量：方法中或者方法声明上(形式参数)</p>
-<p><strong>2.作用范围不一样</strong> <strong>重点</strong></p>
-<p>成员变量：类中</p>
-<p>局部变量：方法中</p>
-<p><strong>3.初始化值的不同</strong> <strong>重点</strong></p>
-<p>成员变量：有默认值</p>
-<p>局部变量：没有默认值。必须先定义，赋值，最后使用</p>
-<p><strong>4.在内存中的位置不同</strong> 了解</p>
-<p>成员变量：堆内存</p>
-<p>局部变量：栈内存</p>
-<p><strong>5.生命周期不同</strong> 了解</p>
-<p>成员变量：随着对象的创建而存在，随着对象的消失而消失</p>
-<p>局部变量：随着方法的调用而存在，随着方法的调用完毕而消失</p>
-<h4 id="第2章-封装"><a href="#第2章-封装" class="headerlink" title="第2章 封装"></a>第2章 封装</h4><h5 id="2-1封装概述"><a href="#2-1封装概述" class="headerlink" title="2.1封装概述"></a>2.1封装概述</h5><h6 id="概述-1"><a href="#概述-1" class="headerlink" title="概述"></a>概述</h6><p>面向对象编程语言是对客观世界的模拟，客观世界里成员变量都是隐藏在对象内部的，外界无法直接操作和修改。 封装可以被认为是一个保护屏障，防止该类的代码和数据被其他类随意访问。要访问该类的数据，必须通过指定的 方式。适当的封装可以让代码更容易理解与维护，也加强了代码的安全性。</p>
-<h6 id="原则"><a href="#原则" class="headerlink" title="原则"></a>原则</h6><p>将<strong>属性隐藏</strong>起来，若需要访问某个属性，<strong>提供公共方法</strong>对其访问。</p>
-<h5 id="2-2-封装的步骤"><a href="#2-2-封装的步骤" class="headerlink" title="2.2 封装的步骤"></a>2.2 封装的步骤</h5><ol>
-<li>使用private关键字来修饰成员变量。</li>
-<li>对需要访问的成员变量，提供对应的一对getXxx方法、setXxx方法。</li>
-</ol>
-<h5 id="2-3-封装的操作——private关键字"><a href="#2-3-封装的操作——private关键字" class="headerlink" title="2.3 封装的操作——private关键字"></a>2.3 封装的操作——private关键字</h5><h6 id="private的含义"><a href="#private的含义" class="headerlink" title="private的含义"></a>private的含义</h6><ol>
-<li>private是一个权限修饰符，代表最小权限。</li>
-<li>可以修饰成员变量和成员方法。</li>
-<li>被private修饰后的成员变量和成员方法，只在本类中才能访问。</li>
-</ol>
-<h6 id="private的使用格式"><a href="#private的使用格式" class="headerlink" title="private的使用格式"></a>private的使用格式</h6><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">private</span>  数据类型 变量名 ；</span><br></pre></td></tr></table></figure>
-
-<ol>
-<li><p>使用private修饰成员变量，代码如下：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Student</span>  </span>&#123;   </span><br><span class="line">	<span class="keyword">private</span> String name;   </span><br><span class="line">	<span class="keyword">private</span> <span class="keyword">int</span> age; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>提供 getXxx 方法 / setXxx 方法，可以访问成员变量，代码如下：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span>  <span class="class"><span class="keyword">class</span> <span class="title">Student</span>  </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> age;</span><br><span class="line"> </span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setName</span><span class="params">(String n)</span> </span>&#123;     </span><br><span class="line">      name = n;</span><br><span class="line">  &#125;</span><br><span class="line"> </span><br><span class="line">  <span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span> </span>&#123;     </span><br><span class="line">      <span class="keyword">return</span> name;</span><br><span class="line">  &#125;</span><br><span class="line"> </span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setAge</span><span class="params">(<span class="keyword">int</span> a)</span> </span>&#123;     </span><br><span class="line">      age = a;</span><br><span class="line">  &#125;</span><br><span class="line"> </span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getAge</span><span class="params">()</span> </span>&#123;</span><br><span class="line">      <span class="keyword">return</span> age;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<h5 id="2-4-封装优化——this关键字"><a href="#2-4-封装优化——this关键字" class="headerlink" title="2.4 封装优化——this关键字"></a>2.4 封装优化——this关键字</h5><p>   我们发现 setXxx 方法中的形参名字并不符合见名知意的规定，那么如果修改与成员变量名一致，是否就见名知意 了呢？代码如下：</p>
-   <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Student</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> age;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setName</span><span class="params">(String name)</span> </span>&#123;</span><br><span class="line">        name = name;</span><br><span class="line">  &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setAge</span><span class="params">(<span class="keyword">int</span> age)</span> </span>&#123;</span><br><span class="line">        age = age;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-
-<p>   ​    经过修改和测试，我们发现新的问题，成员变量赋值失败了。也就是说，在修改了 setXxx() 的形参变量名后，方 法并没有给成员变量赋值！这是由于形参变量名与成员变量名重名，导致成员变量名被隐藏，方法中的变量名，无 法访问到成员变量，从而赋值失败。所以，我们只能使用this关键字，来解决这个重名问题。</p>
-<h6 id="this的含义"><a href="#this的含义" class="headerlink" title="this的含义"></a>this的含义</h6><p>   ​    this代表所在类的当前对象的引用（地址值），即对象自己的引用。<br>   ​    记住 ：方法被哪个对象调用，方法中的this就代表那个对象。即谁在调用，this就代表谁。</p>
-<h6 id="this使用格式"><a href="#this使用格式" class="headerlink" title="this使用格式"></a>this使用格式</h6>   <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">this</span>.成员变量名;</span><br></pre></td></tr></table></figure>
-
-<p>   使用 this 修饰方法中的变量，解决成员变量被隐藏的问题，代码如下：</p>
-   <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Student</span>  </span>&#123;</span><br><span class="line">  <span class="keyword">private</span> String name;</span><br><span class="line">  <span class="keyword">private</span> <span class="keyword">int</span> age;</span><br><span class="line"> </span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setName</span><span class="params">(String name)</span> </span>&#123;</span><br><span class="line">    <span class="comment">//name = name; </span></span><br><span class="line">    <span class="keyword">this</span>.name = name;</span><br><span class="line">  &#125;</span><br><span class="line"> </span><br><span class="line">  <span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> name;</span><br><span class="line">  &#125;</span><br><span class="line"> </span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setAge</span><span class="params">(<span class="keyword">int</span> age)</span> </span>&#123;</span><br><span class="line">    <span class="comment">//age = age; </span></span><br><span class="line">    <span class="keyword">this</span>.age = age;</span><br><span class="line">  &#125;</span><br><span class="line"> </span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getAge</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> age;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-
-<p>小贴士：方法中只有一个变量名时，默认也是使用 this 修饰，可以省略不写。</p>
-<h5 id="2-5-封装优化2——构造方法"><a href="#2-5-封装优化2——构造方法" class="headerlink" title="2.5 封装优化2——构造方法"></a>2.5 封装优化2——构造方法</h5><p>​    <strong>当一个对象被创建时候，构造方法用来初始化该对象，给对象的成员变量赋初始值。</strong><br>​    小贴士：无论你与否自定义构造方法，所有的类都有构造方法，因为java自动提供了一个无参数构造方法， 一旦自己定义了构造方法，java自动提供的默认无参数构造方法就会失效。</p>
-<h6 id="构造方法的定义格式"><a href="#构造方法的定义格式" class="headerlink" title="构造方法的定义格式"></a>构造方法的定义格式</h6><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">修饰符 构造方法名(参数列表)&#123;</span><br><span class="line">    <span class="comment">// 方法体</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>​    构造方法的写法上，方法名与它所在的类名相同。它没有返回值，所以不需要返回值类型，甚至不需要void。使用 构造方法后，代码如下：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Student</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> age;</span><br><span class="line">    <span class="comment">// 无参数构造方法</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Student</span><span class="params">()</span> </span>&#123;&#125; </span><br><span class="line">    <span class="comment">// 有参数构造方法</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Student</span><span class="params">(String name,<span class="keyword">int</span> age)</span> </span>&#123;   </span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">        <span class="keyword">this</span>.age = age; </span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p><strong>注意事项</strong></p>
-<ol>
-<li><p>如果你不提供构造方法，系统会给出无参数构造方法。</p>
-</li>
-<li><p>如果你提供了构造方法，系统将不再提供无参数构造方法。</p>
-</li>
-<li><p>构造方法是可以重载的，既可以定义参数，也可以不定义参数。</p>
-</li>
-</ol>
-<h5 id="2-6标准代码——JavaBean"><a href="#2-6标准代码——JavaBean" class="headerlink" title="2.6标准代码——JavaBean"></a>2.6标准代码——JavaBean</h5><p>​    JavaBean 是 Java语言编写类的一种标准规范。符合 JavaBean 的类，要求类必须是具体的和公共的，并且具有无 参数的构造方法，提供用来操作成员变量的 set 和 get 方法。</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ClassName</span></span>&#123;</span><br><span class="line">    <span class="comment">//成员变量</span></span><br><span class="line">    <span class="comment">//构造方法</span></span><br><span class="line">    <span class="comment">//无参构造方法【必须】</span></span><br><span class="line">    <span class="comment">//有参构造方法【建议】</span></span><br><span class="line">    <span class="comment">//成员方法    </span></span><br><span class="line">    <span class="comment">//getXxx()</span></span><br><span class="line">    <span class="comment">//setXxx()</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h6 id="规范类"><a href="#规范类" class="headerlink" title="规范类"></a>规范类</h6><p>编写符合 JavaBean 规范的类，以学生类为例，标准代码如下：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Student</span> </span>&#123;</span><br><span class="line">  <span class="comment">//成员变量</span></span><br><span class="line">  <span class="keyword">private</span> String name;</span><br><span class="line">  <span class="keyword">private</span> <span class="keyword">int</span> age;</span><br><span class="line"> </span><br><span class="line">  <span class="comment">//构造方法</span></span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="title">Student</span><span class="params">()</span> </span>&#123;&#125;</span><br><span class="line"> </span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="title">Student</span><span class="params">(String name,<span class="keyword">int</span> age)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.name = name;</span><br><span class="line">    <span class="keyword">this</span>.age = age;</span><br><span class="line">  &#125;</span><br><span class="line"> </span><br><span class="line">  <span class="comment">//成员方法</span></span><br><span class="line">  <span class="function">publicvoid <span class="title">setName</span><span class="params">(String name)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.name = name;</span><br><span class="line">  &#125;</span><br><span class="line"> </span><br><span class="line">  <span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> name;</span><br><span class="line">  &#125;</span><br><span class="line"> </span><br><span class="line">  <span class="function">publicvoid <span class="title">setAge</span><span class="params">(<span class="keyword">int</span> age)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.age = age;</span><br><span class="line">  &#125;</span><br><span class="line"> </span><br><span class="line">  <span class="function">publicint <span class="title">getAge</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> age;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h6 id="测试类"><a href="#测试类" class="headerlink" title="测试类"></a>测试类</h6><p>代码如下：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TestStudent</span> </span>&#123;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">    <span class="comment">//无参构造使用</span></span><br><span class="line">    Student s= <span class="keyword">new</span> Student();</span><br><span class="line">    s.setName(<span class="string">&quot;柳岩&quot;</span>);</span><br><span class="line">    s.setAge(<span class="number">18</span>);</span><br><span class="line">    System.out.println(s.getName()+<span class="string">&quot;‐‐‐&quot;</span>+s.getAge());</span><br><span class="line">    <span class="comment">//带参构造使用</span></span><br><span class="line">      Student s2= <span class="keyword">new</span> Student(<span class="string">&quot;赵丽颖&quot;</span>,<span class="number">18</span>);</span><br><span class="line">  System.out.println(s2.getName()+<span class="string">&quot;‐‐‐&quot;</span>+s2.getAge());   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
